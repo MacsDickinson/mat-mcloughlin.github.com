@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mat McLoughlin</title>
+    <description>Mat McLoughlin</description>
+    <link>http://mat-mcloughlin.net</link>
+    <atom:link href="http://mat-mcloughlin.net/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Dark Matter Developer != Bad Developers</title>
+        <description>
+&lt;p&gt;About a year ago Scott Hanselman wrote about &lt;a href=&quot;http://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx&quot;&gt;dark matter developers&lt;/a&gt;. I’d be surprised if you hadn’t heard of the term already. The problem is, in the last couple of weeks I’ve seen people using it as a derogatory term, which it’s not. They were calling them bad, which they aren’t. I don’t think this is what Scott ever intended.&lt;/p&gt;
+
+&lt;p&gt;When Scott talks about dark matter developers he is referring to the guys in the office who don’t really contribute to the community. They aren’t the first to answer Stack Overflow questions, they don’t have their own blog and they don’t go to conferences. What they do, do is get stuff done and at the end of the day go home and live their lives. It’s important to remember this doesn’t make them bad. They may still know the latest design patterns, tools and techniques just as well as you do. They just choose not to talk about it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I’ve known and worked with plenty of dark matter developers who are incredibly good at their jobs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So please don’t instantly label a dark matter developer as being bad. They can be just as capable as you. And the last thing that is going to help bring them into this community we are so proud of is if we call them bad because they don’t contribute.&lt;/p&gt;
+
+&lt;p&gt;This is not to say that I don’t think people will benefit more from being in the community, as I’ve mentioned in a previous &lt;a href=&quot;http://mat-mcloughlin.net/2013/10/02/why-developers-should-go-to-conferences.html&quot;&gt;post&lt;/a&gt;. Just that it’s not a requirement to being good.&lt;/p&gt;
+
+&lt;p&gt;The inverse of this is also true. Just because somebody has a blog or a twitter account it doesn’t make them a good developer or expert. It just means they shout louder. I’ve seen multiple blogs that have opinions and ideas I consider bad. Not that you should trust me either.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It doesn’t matter who it is you should never just trust their opinion on a subject without exploring and deciding for yourself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is only a short post. I just think its important that we don’t alienate people from our community.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Nov 2013 00:00:00 +0000</pubDate>
+        <link>http://mat-mcloughlin.net/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html</guid>
+      </item>
+    
+      <item>
+        <title>Step Away From the Keyboard</title>
+        <description>
+&lt;p&gt;Recently I’ve become obsessed. I’m spending my days sat in front of the computer either coding or scouring the web for new information on how to code better. I need to stop this. It’s not healthy.&lt;/p&gt;
+
+&lt;p&gt;As an example of a day for me. Get up, read about the latest the tech/software news. Go to work, Spend the day coding. Finish, go home, work on some personal project, probably to the annoyance of my wife. Go to sleep, usually reading a software book or listening to a podcast. Any spare moment I’ll spend watching tutorials on the web.&lt;/p&gt;
+
+&lt;p&gt;It’s scary when I put hours to it. I’ve lost track of the times I’ve spent 14 or more hours in front of computer in a day. There is no way this is healthy. There is no way it is a good use of my time.&lt;/p&gt;
+
+&lt;p&gt;And its not just me. I know plenty of developers like this. I think there is something wrong with our industry as a whole. The overtime we work, the cramming for deadlines, the constant learning. It needs to stop.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The fact is this obsession is often seen as commendable. It often gets mistaken for passion. The fact is you can be passionate without being obsessed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In my case its partly driven by not wanting to drop behind. I don’t like somebody knowing something I don’t. I have to go and find out about it immediately.&lt;/p&gt;
+
+&lt;p&gt;Its time for me to re-evaluate. I need to step away from the keyboard and enjoy some of the things life has to offer us. Go spend time with family. Go get some exercise. I’ve got other hobbies, I climb and I surf, but these things have taken a back seat recently (partly due to an injury) because I’ve become obsessed with code.&lt;/p&gt;
+
+&lt;p&gt;For the next few weeks I’m going to limit the time I spend on the computer to try and re-address my work life balance. I don’t think it should just be me doing this. I think there is a lot of us who could benefit from trying to reduce the amount of hours we spend in front of a keyboard. I’m not saying become a 9-5 developer but,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Is there anything wrong with limiting ourselves to 8 hours a day. We berate the 9-5 dark matter developer for not showing enough passion. But have they got the balance right?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Why not try and find a new hobby. Go out for walk, anything that is not to do with computers.&lt;/p&gt;
+
+&lt;p&gt;Remember,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Nobody ever died wishing they had written more code&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Right I’m going for a walk. I’ve been sat here too long.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Nov 2013 00:00:00 +0000</pubDate>
+        <link>http://mat-mcloughlin.net/2013/11/02/step-away-from-the-keyboard.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/11/02/step-away-from-the-keyboard.html</guid>
+      </item>
+    
+      <item>
+        <title>Nancy gets Route Constraints (Beta Only)</title>
+        <description>
+&lt;p&gt;A couple of people have been after this for a while so I thought I would implement it. This update will give Nancy the ability to have routes that are only called if the parameter of the route fits certain criteria.&lt;/p&gt;
+
+&lt;p&gt;The format for the constraints has been copied from the recent WebAPI release. Its really easy to use. All you have to do is define the parameter name and the constraint as part of the route. For example:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/{name:string}&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parameters&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parameters&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Name&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;+&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot; is a string&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This isn’t in the prod version of Nancy yet but you can get hold of it in the &lt;a href=&quot;https://www.myget.org/gallery/nancyfx&quot;&gt;NancyFX bleeding edge builds&lt;/a&gt; nuget package&lt;/p&gt;
+
+&lt;p&gt;The constraints available to you are:&lt;/p&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Constraint&lt;/th&gt;
+		&lt;th&gt;Description&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:int}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be an integer value (long is used so any size int can be used_&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:decimal}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be have decimal place&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:guid}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be a GUID&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:bool}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be either true or false&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:alpha}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must contain only alpha characters&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:datetime}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be date time formatted string&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:min(n)}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be a numeric greater than &lt;i&gt;n&lt;/i&gt;	&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:max(n)}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be numeric less than &lt;i&gt;n&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:range(n,m)}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be a numeric between &lt;i&gt;n&lt;/i&gt; and &lt;i&gt;m&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:minlength(n)}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be string of length greater than &lt;i&gt;n&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:maxlength(n)}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be string of length less than &lt;i&gt;n&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;code&gt;{value:length(n,m)}&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Must be string of length between &lt;i&gt;n&lt;/i&gt; and &lt;i&gt;m&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;If you’ve looked at the WebAPI implementation of this you may have noticed there are some other options such as &lt;em&gt;long&lt;/em&gt; and &lt;em&gt;float&lt;/em&gt; that are not included here. I don’t think these are really necessary as distinguishing between them isn’t really useful for route paramters. better to just have &lt;em&gt;int&lt;/em&gt; and &lt;em&gt;decimal&lt;/em&gt;. However I will point out that &lt;code&gt;{value:int}&lt;/code&gt; does use long so that any size of integer can be used.&lt;/p&gt;
+
+&lt;p&gt;As an example to where this is useful. Imagine you want the same route to find a product, but you want to allow a user to use a product id or a product name. The following example will allow you to do that:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;class&lt;/span&gt; &lt;span class=&#39;nc&#39;&gt;ProductModule&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;NancyModule&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;ProductModule&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;IProductRepository&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;productRepository&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt;     &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt;         &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/product/{name:alpha}&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parameter&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;productRepository&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;GetProductByName&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;parameter&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Name&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;5&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;6&lt;/span&gt;         &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/product/{id:int}&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parameter&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;productRepository&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;GetProductById&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;parameter&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Id&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;7&lt;/span&gt;     &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;8&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I’ll let you know when this comes out of beta.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Oct 2013 00:00:00 +0000</pubDate>
+        <link>http://mat-mcloughlin.net/2013/10/31/nancy-gets-route-constraints.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/10/31/nancy-gets-route-constraints.html</guid>
+      </item>
+    
+      <item>
+        <title>Why developers should go to conferences</title>
+        <description>
+&lt;p&gt;Conferences. Chances are you’ve not been to one. Chances are you want to but just have not had the opportunity. They are often expensive affairs and its hard to justify the cost and time you will need off to your boss. The thing is though, they are really important. Outside of formal education they are probably the best source of learning a developer can get.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I’ll point this out straight away. I talk about NDC specifically in this post. However I’m in no way affiliated with them. Nor have I been asked to promote it. It just so happens I think it’s a very good conference.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;June 2013 I got the opportunity to go to NDC Oslo. This was my first major conference and it lasted a full 5 days. The first two days being day long workshops followed by 3 days of talks (with a choice of up to 56 talks a day!). There was free food and drink provided all day long with after conference events organised for each day.&lt;/p&gt;
+
+&lt;p&gt;This conference was incredible. Luckily my boss didn’t take too much convincing to send me and I learnt so much whilst I was there:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It completely changed my perspective on TDD.&lt;/li&gt;
+
+&lt;li&gt;It introduced me to a lot of new design patterns and methodologies.&lt;/li&gt;
+
+&lt;li&gt;I learnt about a lot of new technologies. Including &lt;a href=&quot;http://puppetlabs.com/&quot;&gt;Puppet&lt;/a&gt;, &lt;a href=&quot;http://www.tryfsharp.org/&quot;&gt;F#&lt;/a&gt;, &lt;a href=&quot;http://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt;, &lt;a href=&quot;http://nancyfx.org/&quot;&gt;Nancy&lt;/a&gt; and many more.&lt;/li&gt;
+
+&lt;li&gt;It taught me more about the existing technologies that we use.&lt;/li&gt;
+
+&lt;li&gt;I found out about better ways to work the development life cycle.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this stuff wasn’t useless. Since coming back from the conference it brought these benefits to the company I work for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We’re currently in the process of implementing continuous integration.&lt;/li&gt;
+
+&lt;li&gt;We have improved our unit testing and are looking at integration and browser testing.&lt;/li&gt;
+
+&lt;li&gt;With improved understanding of the tech that we use we’ve managed to cut down large sections of code.&lt;/li&gt;
+
+&lt;li&gt;New technologies (most recently &lt;a href=&quot;http://automapper.org/&quot;&gt;automapper&lt;/a&gt;, thanks &lt;a href=&quot;https://twitter.com/jbogard&quot;&gt;Mr Bogard&lt;/a&gt;) have given us new ways to improve our code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As well as a lot of other things. You can learn a lot of these things from just browsing the internet but its not the same as at a conference. At a conference you are totally focused on the learning.&lt;/p&gt;
+
+&lt;p&gt;Another great and beneficial part of conferences is the networking and socialising. All these subjects and technologies that you learn about will be discussed at length with the other developers at the conference. It’s a chance to exchange ideas with developers outside your company. Learning how other teams approach problems, how they avoid common pitfalls and much more.&lt;/p&gt;
+
+&lt;p&gt;At NDC I got to met developers such as &lt;a href=&quot;https://twitter.com/stack72&quot;&gt;Paul Stack&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Ben_Hall&quot;&gt;Ben Hall&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/robconery&quot;&gt;Rob Conery&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/DataChomp&quot;&gt;Rob Sullivan&lt;/a&gt;. All who gave me new ideas and perspectives.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you’re lucky you may even get chance to sit down and hack out some code with these people. This is a huge benefit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I can’t stress how much of a benefit this is. Often, working at the same place its very easy to become insular in your ideas. Allowing developers to go to conferences gives them an opportunity to get ideas from outside there usual group.&lt;/p&gt;
+
+&lt;p&gt;That’s not all. Conferences can be good places to recruit from and set up new relationships with other companies. If you are lucky enough to have the chance to get a stall at a conference it can also be great promotion for your company.&lt;/p&gt;
+
+&lt;p&gt;£1500 might seem like a lot of money but developers and the companies they work for get so much more in return.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Ok, I’m going to finish with a small sell. If this post has convinced you to go to a conference a great start would be &lt;a href=&quot;http://www.ndc-london.com/&quot;&gt;NDC London&lt;/a&gt; this December. It just so happens I’m fortunate enough to be speaking at this one :D.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 02 Oct 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/10/02/why-developers-should-go-to-conferences.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/10/02/why-developers-should-go-to-conferences.html</guid>
+      </item>
+    
+      <item>
+        <title>Running Jekyll on Windows</title>
+        <description>
+&lt;p&gt;Static blog generators have become very popular recently and with good reason. They are simple without any of the bulk of Wordpress or Blogger and they allow you to host it using providers that don’t have any ??server side language. One of the more popular generators is Jekyll. Partly because it is used by GitHub, which just so happens to be place most people host them. There is just one problem with Jekyll though. It can be a little tricky to get it working on Windows. This post will hopefully help you solve this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I’ve highlighted any gotchas in bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;part_one_installing_ruby&quot;&gt;Part One: Installing Ruby&lt;/h2&gt;
+
+&lt;p&gt;Jekyll is a ruby application so thats your first problem. It requires you to install both Ruby and the DevKit on your machine. If you haven’t already come across it I highly recommend you use &lt;a href=&quot;http://chocolatey.org/&quot;&gt;chocolatey&lt;/a&gt; to do this. Its a machine package manager for windows, kind of like apt for Linux. Its so good infact I rarely setup a machine with out it.&lt;/p&gt;
+
+&lt;p&gt;To install chocolatey either go to their website or open up Command Prompt and type:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;nv&#39;&gt;@powershell&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-NoProfile&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-ExecutionPolicy&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;unrestricted&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-Command&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;iex ((new-object net.webclient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;))&amp;quot;&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;SET&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;PATH&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;=&lt;/span&gt;&lt;span class=&#39;k&#39;&gt;%&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;PATH&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;%&lt;/span&gt;&lt;span class=&#39;err&#39;&gt;;&lt;/span&gt;&lt;span class=&#39;k&#39;&gt;%&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;systemdrive&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;%\&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;chocolatey&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;\&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;bin&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;-&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;See&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;more&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;at&lt;/span&gt;&lt;span class=&#39;err&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;http&lt;/span&gt;&lt;span class=&#39;err&#39;&gt;:&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;//&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;chocolatey&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;org&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;/&lt;/span&gt;&lt;span class=&#39;c&#39;&gt;#sthash.DiILbJrZ.dpuf&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once this is done you can then go ahead and install &lt;a href=&quot;http://chocolatey.org/packages/ruby&quot;&gt;Ruby&lt;/a&gt; and the &lt;a href=&quot;http://chocolatey.org/packages/ruby.devkit.ruby193&quot;&gt;DevKit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have to be careful at this point as Jekyll runs on version 1.9 NOT 2.0.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So go ahead and use &lt;code&gt;cinst&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;cinst&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;ruby&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-Version&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;9&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;3&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;44800&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;cinst&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;ruby&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;devkit&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;ruby193&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;part_two_installing_python&quot;&gt;Part Two: Installing Python&lt;/h2&gt;
+
+&lt;p&gt;Why Python? You need it if you want to use &lt;a href=&quot;http://pygments.org/&quot;&gt;pygments&lt;/a&gt; which is the library Jekyll uses for syntax highlighting. Python 3.* can cause some problems with Jekyll so unless you planning on using it for anything else you’re best sticking to 2.7. So again using &lt;code&gt;cinst&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;cinst&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;python&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-Version&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;2&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;7&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;5&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Next you need to add python to your &lt;code&gt;PATH&lt;/code&gt; enviroment variable:&lt;/p&gt;
+
+&lt;p&gt;Open up Control Panel and click on “System”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/control-panel.png&quot; alt=&quot;Control Panel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on “Advanced system settings”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/advanced-systems-settings.png&quot; alt=&quot;Advanced Systems Settings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on “Enviroment Variables…” (Why the Ellipsis?)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/environment-variables.png&quot; alt=&quot;Environment Variables&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you need to add the path that you installed Python to, to the Path variable. Most likely, if you used Chocolatey, this will mean adding&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;text&#39;&gt;;C:\python27;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Make sure your variables are delimited by a semi-colon.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now the next bit might catch you out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Make sure to close all instances of Command Prompt (or Powershell) and reopen them so your Path variable can be reloaded.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;part_three_installing_jekyll&quot;&gt;Part Three: Installing Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Now we are already to go-ahead and install Jekyll:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;gem&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;install&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;jekyll&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will install Jekyll and all its dependencies. At this point it may work for you, however for me I still had problems with the &lt;code&gt;pygments.rb&lt;/code&gt; gem. At the time I wrote this it didn’t work for me. At the time of writing it was at version 0.5.3.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If at this point Jekyll still doesn’t work it you may need to revert to pygments.rb version 0.5.0. To do this&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;gem&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;uinstall&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;pygments&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-v&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;5&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;gem&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;install&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;pygments&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;-v&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;5&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;part_four_create_your_blog&quot;&gt;Part Four: Create your Blog&lt;/h2&gt;
+
+&lt;p&gt;For this section I’m going to refer you to the &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;official site&lt;/a&gt;. Come back when you’re done.&lt;/p&gt;
+
+&lt;h2 id=&quot;part_five_hosting_on_github&quot;&gt;Part Five: Hosting on GitHub&lt;/h2&gt;
+
+&lt;p&gt;You’ve got two options here. A simple one and a more complicated one. I’ll show you the simple way first and then if you need it you can move onto the more complicated option.&lt;/p&gt;
+
+&lt;p&gt;GitHub allow you to host a website in one of your repositories at the URL &lt;code&gt;username.github.io&lt;/code&gt;. To set this up you need to create a repository called &lt;code&gt;username.github.io&lt;/code&gt;. You can then push your newly created blog straight to this repository. The reason you can do this is because GitHub will actually run your application through Jekyll on the server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your blog should have a .gitignore file in the root of your blog that contains the following&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;text&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; _site/
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; serve/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;However, after you’ve been playing with Jekyll for a while, you probably want to install some plugins. This is where GitHub falls down. It runs Jekyll in safe mode so it will ignore any plugins you install. So you’re going to have to start generating the site locally and pushing the compiled site to GitHub. I’m sure there a a couple of ways to do this, but here is my way.&lt;/p&gt;
+
+&lt;p&gt;Go to your repository and create a new branch. Call it source:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/creating-branch.png&quot; alt=&quot;Creating Branch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And set it as your default branch. This is so when somebody comes to your git repository they will see this rather than the compiled site&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/setting-default-branch.png&quot; alt=&quot;Setting Default Branch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then create a new file in the route of your blog and call it rake.rb and add the following code:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;ruby&#39;&gt;&lt;span class=&#39;lineno&#39;&gt; 1&lt;/span&gt; &lt;span class=&#39;nb&#39;&gt;require&lt;/span&gt; &lt;span class=&#39;s1&#39;&gt;&amp;#39;rubygems&amp;#39;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 2&lt;/span&gt; &lt;span class=&#39;nb&#39;&gt;require&lt;/span&gt; &lt;span class=&#39;s1&#39;&gt;&amp;#39;jekyll&amp;#39;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 3&lt;/span&gt; &lt;span class=&#39;nb&#39;&gt;require&lt;/span&gt; &lt;span class=&#39;s1&#39;&gt;&amp;#39;tmpdir&amp;#39;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 4&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt; 5&lt;/span&gt; &lt;span class=&#39;c1&#39;&gt;# Change your GitHub reponame&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 6&lt;/span&gt; &lt;span class=&#39;no&#39;&gt;GITHUB_REPONAME&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;&amp;lt;your git repository&amp;gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 7&lt;/span&gt; &lt;span class=&#39;no&#39;&gt;TEMP_DIRECTORY&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;&amp;lt;absolute path location to generate your site to&amp;gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 8&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt; 9&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;desc&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;Generate blog files&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;10&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;task&lt;/span&gt; &lt;span class=&#39;ss&#39;&gt;:generate&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;do&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;11&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;Jekyll build --source . --destination _site&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;12&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;end&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;13&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;14&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;desc&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;Generate and publish blog to gh-pages&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;15&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;task&lt;/span&gt; &lt;span class=&#39;ss&#39;&gt;:publish&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;ss&#39;&gt;:generate&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;do&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;16&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;mkdir &lt;/span&gt;&lt;span class=&#39;se&#39;&gt;\&amp;quot;&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;#{&lt;/span&gt;&lt;span class=&#39;no&#39;&gt;TEMP_DIRECTORY&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;}&lt;/span&gt;&lt;span class=&#39;se&#39;&gt;\&amp;quot;&lt;/span&gt;&lt;span class=&#39;s2&#39;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;17&lt;/span&gt;   &lt;span class=&#39;n&#39;&gt;cp_r&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;_site/.&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;no&#39;&gt;TEMP_DIRECTORY&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;18&lt;/span&gt;   &lt;span class=&#39;no&#39;&gt;Dir&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;chdir&lt;/span&gt; &lt;span class=&#39;no&#39;&gt;TEMP_DIRECTORY&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;19&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;git init&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;20&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;git add .&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;21&lt;/span&gt;   &lt;span class=&#39;n&#39;&gt;message&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;Site updated at &lt;/span&gt;&lt;span class=&#39;si&#39;&gt;#{&lt;/span&gt;&lt;span class=&#39;no&#39;&gt;Time&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;now&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;utc&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;}&lt;/span&gt;&lt;span class=&#39;s2&#39;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;22&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;git commit -m &lt;/span&gt;&lt;span class=&#39;se&#39;&gt;\&amp;quot;&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;#{&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;message&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;}&lt;/span&gt;&lt;span class=&#39;se&#39;&gt;\&amp;quot;&lt;/span&gt;&lt;span class=&#39;s2&#39;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;23&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;git remote add origin https://github.com/&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;#{&lt;/span&gt;&lt;span class=&#39;no&#39;&gt;GITHUB_REPONAME&lt;/span&gt;&lt;span class=&#39;si&#39;&gt;}&lt;/span&gt;&lt;span class=&#39;s2&#39;&gt;.git&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;24&lt;/span&gt;   &lt;span class=&#39;nb&#39;&gt;system&lt;/span&gt; &lt;span class=&#39;s2&#39;&gt;&amp;quot;git push origin master --force&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;25&lt;/span&gt;   &lt;span class=&#39;n&#39;&gt;rm_rf&lt;/span&gt; &lt;span class=&#39;no&#39;&gt;TEMP_DIRECTORY&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;26&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This Ruby is a ruby rake file, if you want to learn more about it checkout this site. It will give you two commands that you can run from the root of you blog&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;rake&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;generate&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That will generate the site and&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;powershell&#39;&gt;&lt;span class=&#39;n&#39;&gt;PS&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;rake&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;publish&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That will generate your site (locally) and copy it into a temporay location (I usually put it in &lt;code&gt;C:\temp\generate_blog&lt;/code&gt;) and push it to the master branch of your git repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The master branch is the one github uses for your site&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And thats it! Hopefully this will help people where I got stuck. If you have any problems leave a comment and I will try my best to help.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Sep 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/09/21/running-jekyll-on-windows.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/09/21/running-jekyll-on-windows.html</guid>
+      </item>
+    
+      <item>
+        <title>ASP.NET you're doing it wrong. Part Two: The Views</title>
+        <description>
+&lt;p&gt;In my previous post I spoke briefly about how to setup routes and handle route arguments etc. In this post I’m going to run through the various options you have for returning and presenting your data in views. If you haven’t already I suggest you read the &lt;a href=&quot;/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html&quot;&gt;first part&lt;/a&gt; of this series.&lt;/p&gt;
+
+&lt;h2 id=&quot;returning_views_and_the_convention&quot;&gt;Returning views and the Convention&lt;/h2&gt;
+
+&lt;p&gt;Just as a refresher, a simple get method that returns a string, is defined as follows:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;_&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To change this to return a view instead is easy. The &lt;code&gt;NancyModule&lt;/code&gt; base class has a property of type &lt;code&gt;ViewRenderer&lt;/code&gt; called &lt;code&gt;View&lt;/code&gt;. This is like the Route handlers in that it is an indexer. It allows you to set the view you wish to return in a number of different ways. As a basic example:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;_&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;View&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;Hello.html&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will process and return a view in a file called &lt;code&gt;Hello.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When Nancy sees that you want to return &lt;code&gt;Hello.html&lt;/code&gt; it will look in a number of different places for the file. First it will look in the root of your application. If it can’t find it there it will look in a directory called &lt;code&gt;Views&lt;/code&gt; and finally if it can’t find it there it will look in folder of the same name as the module that you are returning the view from. That is to say, if your module is called &lt;code&gt;TurtlesModule&lt;/code&gt; it will look for the folder &lt;code&gt;Views\Turtles&lt;/code&gt; (Note: the module portion is removed). If it can’t find the view in that folder it will throw an error.&lt;/p&gt;
+
+&lt;p&gt;The error is one of the things I really like about Nancy. It’s actually useful. I know right?! Here’s a screen shot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/missing-view.jpg&quot; alt=&quot;Missing View&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look on the line that starts “Locations inspected” you can see every place that Nancy has looked for the view. Making it really easy to find the problem.&lt;/p&gt;
+
+&lt;p&gt;Now it is possible to change this convention, as it with everything in Nancy, but I will talk about that more when I cover the &lt;code&gt;Bootstrapper&lt;/code&gt; class in a future post.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative_methods_of_returning_a_view&quot;&gt;Alternative Methods of Returning a View&lt;/h2&gt;
+
+&lt;p&gt;The astute among you many have noticed I’m only returning some plain html. What if I want to return a view model as well. Nancy allows you to do this in two different ways. The first is to specify it as the second argument in the indexer:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;_&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;View&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;Hello.html&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;new&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;HelloModel&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()]&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;and the second is a little bit more interesting. You can actually just specify the model:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;_&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;View&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;k&#39;&gt;new&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;HelloModel&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()]&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you do this Nancy will then attempt to find a view in a file called &lt;code&gt;Hello.html&lt;/code&gt; (Removing the Model part) in the same fashion as above. I’ve got to be honest, I’m not a fan of this method. I’d much rather be explicit about the view and the model.&lt;/p&gt;
+
+&lt;h2 id=&quot;the_super_simple_view_engine_and_other_options&quot;&gt;The Super Simple View Engine and other options&lt;/h2&gt;
+
+&lt;p&gt;So returning a view is one thing. Chances are you want to do something dynamic with the view model though. Nancy ships with the Super Simple View Engine (I’m going to refer to this as SSVE from now on to save my &lt;a href=&quot;http://www.keysleft.com/&quot;&gt;keystrokes&lt;/a&gt;). This is, as the name would suggest, simple. If you are wanting to do anything remotely complicated I would recommend using Nancy’s implementation of the Razor view engine. But just to show you an example of the syntax:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;html&#39;&gt;&lt;span class=&#39;lineno&#39;&gt; 1&lt;/span&gt; &lt;span class=&#39;nt&#39;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello Turtles!&lt;span class=&#39;nt&#39;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 2&lt;/span&gt; &lt;span class=&#39;nt&#39;&gt;&amp;lt;table&lt;/span&gt; &lt;span class=&#39;na&#39;&gt;border=&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;&lt;span class=&#39;nt&#39;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 3&lt;/span&gt;     &lt;span class=&#39;nt&#39;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 4&lt;/span&gt;         &lt;span class=&#39;nt&#39;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Name&lt;span class=&#39;nt&#39;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 5&lt;/span&gt;         &lt;span class=&#39;nt&#39;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Mask Colour&lt;span class=&#39;nt&#39;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 6&lt;/span&gt;     &lt;span class=&#39;nt&#39;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 7&lt;/span&gt;     @Each.Model
+&lt;span class=&#39;lineno&#39;&gt; 8&lt;/span&gt;     &lt;span class=&#39;nt&#39;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 9&lt;/span&gt;         &lt;span class=&#39;nt&#39;&gt;&amp;lt;td&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&#39;na&#39;&gt;href=&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/turtles/details/@Current.Id&amp;quot;&lt;/span&gt;&lt;span class=&#39;nt&#39;&gt;&amp;gt;&lt;/span&gt;@Current.Name&lt;span class=&#39;nt&#39;&gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;10&lt;/span&gt;         &lt;span class=&#39;nt&#39;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;@Current.MaskColour&lt;span class=&#39;nt&#39;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;11&lt;/span&gt;     &lt;span class=&#39;nt&#39;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;12&lt;/span&gt;     @EndEach
+&lt;span class=&#39;lineno&#39;&gt;13&lt;/span&gt; &lt;span class=&#39;nt&#39;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It has all the usual iterators and conditionals that you would expect. However, one thing to bear in mind is it cannot handle nested loops. So be aware.&lt;/p&gt;
+
+&lt;p&gt;Did I say how extensible Nancy is? :D&lt;/p&gt;
+
+&lt;p&gt;If the SSVE isn’t good enough for you there are plenty of other options all available by &lt;a href=&quot;http://www.nuget.org/packages?q=nancy.viewengines&quot;&gt;nuget&lt;/a&gt; packages. And for the most part they are easy to install and configure. As an example see &lt;a href=&quot;https://github.com/NancyFx/Nancy/wiki/Razor-View-Engine&quot;&gt;this&lt;/a&gt; wiki page. I should point out that this is not the ASP.NET implementation of Razor so you may notice some inconsistencies in what methods are available.&lt;/p&gt;
+
+&lt;h2 id=&quot;bonus_points&quot;&gt;Bonus Points&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When attempting to locate a view Nancy will look for files with the extension .html or .htm or .sshtml. You don’t have to specify the extension when defining the view to return. SSVE will try and parse all of these files.&lt;/li&gt;
+
+&lt;li&gt;In this day and age you probably want to be able to handle different accept headers. &lt;a href=&quot;https://twitter.com/philliphaydon&quot;&gt;@philiphaydon&lt;/a&gt; has written a great &lt;a href=&quot;http://www.philliphaydon.com/2013/04/nancyfx-revisiting-content-negotiation-and-apis-part-1/&quot;&gt;series&lt;/a&gt; of posts example on how to do this.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think thats about it for views. Next post will be about the &lt;code&gt;Bootstrapper&lt;/code&gt; class which is where Nancy really starts to show its extensibility.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Sep 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/09/15/aspnet-youre-doing-it-wrong-views.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/09/15/aspnet-youre-doing-it-wrong-views.html</guid>
+      </item>
+    
+      <item>
+        <title>My first talk and what it Taught Me</title>
+        <description>
+&lt;p&gt;For those of you who don’t know, I did my first talk a couple of nights ago (29/8/2013) at &lt;a href=&quot;http://www.leeds-sharp.org/&quot;&gt;Leeds Sharp&lt;/a&gt;. It was on &lt;a href=&quot;http://nancyfx.org/&quot;&gt;Nancy&lt;/a&gt; and I think it went pretty well. However, I’ve already noticed a lot of ways that I need to improve.&lt;/p&gt;
+
+&lt;p&gt;I organised my talk like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A quick introduction about me and what I do.&lt;/li&gt;
+
+&lt;li&gt;An introduction to the Nancy framework. When it was created, why and by whom.&lt;/li&gt;
+
+&lt;li&gt;I talked about the &lt;a href=&quot;https://github.com/NancyFx/Nancy/wiki/Introduction#the-super-duper-happy-path&quot;&gt;Super Duper Happy Path&lt;/a&gt;.&lt;/li&gt;
+
+&lt;li&gt;I demonstrated how to create a NancyModule and explained some of the benefits.&lt;/li&gt;
+
+&lt;li&gt;I gave examples on how to use route arguments, model bind and validate.&lt;/li&gt;
+
+&lt;li&gt;I showed how to create and return views.&lt;/li&gt;
+
+&lt;li&gt;I covered testing and the Nancy testing framework.&lt;/li&gt;
+
+&lt;li&gt;Finally I implemented Nancy into an existing ASP.NET MVC application.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It took a little over an hour and I realised I need to do these things:&lt;/p&gt;
+
+&lt;h2 id=&quot;relax&quot;&gt;Relax&lt;/h2&gt;
+
+&lt;p&gt;I’m not a nervous person by nature, but this was a new experience for me. I’ve given talks before but never to my peers, so I was a little nervous. I found taking 5 minutes to calm myself down before entering the room really helped.&lt;/p&gt;
+
+&lt;h2 id=&quot;speak_slowly&quot;&gt;Speak Slowly&lt;/h2&gt;
+
+&lt;p&gt;Because you are going to be nervous you’re naturally going to want to talk more, or at least that’s what happened to me. I made a conscious effort to slow my speech down. Not the point that I sounded like I was being played at half speed, but just enough so that it gave me time to think about my sentences.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn_the_lingo&quot;&gt;Learn the Lingo&lt;/h2&gt;
+
+&lt;p&gt;I know one of the things I do a lot of at work or during normal conversation is to replace terms with “thingy” or “whats-it”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You know that whats-it that pulls out the data. Can you use the thingy pattern on it. Yeah you know what I mean??&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No, no they don’t. I spent time learning the proper terminology for the field and made sure that I used it.&lt;/p&gt;
+
+&lt;h2 id=&quot;avoid_catchphrases&quot;&gt;Avoid Catchphrases&lt;/h2&gt;
+
+&lt;p&gt;I didn’t do very well on this during my talk. I must have said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;And it works like that “straight out of the box”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So many times. I knew I was constantly repeating it but I couldn’t think of anything else to say. I think speaking slower helped me to avoid doing this more, but its something I’m going to have to work on.&lt;/p&gt;
+
+&lt;h2 id=&quot;if_you_dont_know_the_answer_just_admit_it&quot;&gt;If you don’t know the answer just admit it&lt;/h2&gt;
+
+&lt;p&gt;I think this is the biggest fear for anybody giving a talk. It was for me. But then I realised, unless you’re Jon Skeet, there are going to be gaps in your knowledge. This is the case for everybody. I decided if I didn’t know the answer I would just say. But I would also offer to find out for them, or give them a way to find out themselves.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;Have notes. You’re going to forget what you are wanting to show. I did and I couldn’t get access to my notes due to lack of internet connection. It wasn’t a disaster, but it could have been.&lt;/p&gt;
+
+&lt;h2 id=&quot;have_a_finished_demo&quot;&gt;Have a Finished Demo&lt;/h2&gt;
+
+&lt;p&gt;I knew there was the possibility that something could go wrong. Probably because I’d lose the ability to type with all those people watching me. I figured if I had a demo to go back to, it wouldn’t be as big an issue.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont_use_resharper_or_shortcuts&quot;&gt;Don’t use Resharper or Shortcuts&lt;/h2&gt;
+
+&lt;p&gt;I wanted people to follow along with my talk as the crowd was only small. I realised soon into it that if I start flicking around with Resharper shortcuts nobody would be able to follow. Better still I tried to use the mouse for navigation. I think this made it easier to follow.&lt;/p&gt;
+
+&lt;h2 id=&quot;keep_your_examples_simple&quot;&gt;Keep your examples simple&lt;/h2&gt;
+
+&lt;p&gt;I went to NDC at Oslo this year and watched a talk by &lt;a href=&quot;https://twitter.com/davidfowl&quot;&gt;@davidfowl&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/DamianEdwards&quot;&gt;@DamianEdwards&lt;/a&gt;. During the course of their talk they coded, from scratch, a basic SignalR example. I was very impressed, you really should watch &lt;a href=&quot;http://vimeo.com/68383353&quot;&gt;it&lt;/a&gt;. There was no way I could do anything so complicated under pressure. So I decided to keep my examples simple then less could go wrong.&lt;/p&gt;
+
+&lt;h2 id=&quot;you_can_never_have_enough_water&quot;&gt;You can never have enough water&lt;/h2&gt;
+
+&lt;p&gt;My throat has never been so dry. I had one small cup of water. Big mistake. I need to make sure I have at least a bottle but not drink so much I need the toilet :D&lt;/p&gt;
+
+&lt;p&gt;So thats pretty much it. These are the things I realised after my first talk. I’m hoping to do more soon and to get out into the wider community as I really enjoyed it.&lt;/p&gt;
+
+&lt;p&gt;I’ve got a feeling I’m going to learn a lot more than the people in my audience do!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Aug 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/08/29/my-first-talk-and-what-I-learnt.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/08/29/my-first-talk-and-what-I-learnt.html</guid>
+      </item>
+    
+      <item>
+        <title>Using Named Parameters for Constants</title>
+        <description>
+&lt;p&gt;Short post this one. I might not being telling you anything new here, but a friend pointed out a good use for named parameters other than the usual optional parameters.&lt;/p&gt;
+
+&lt;p&gt;Consider these two examples:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;foo&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Bar&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;m&#39;&gt;123&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;person&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Person&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;Fred Bloggs&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;true&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Any idea what the parameters mean? Me neither.&lt;/p&gt;
+
+&lt;p&gt;However if you explicitly name the properties:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;foo&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Bar&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;seconds&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;m&#39;&gt;123&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;person&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Person&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;Fred Bloggs&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;isMale&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;true&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It becomes clear.&lt;/p&gt;
+
+&lt;p&gt;I think this really improves the readability of the code. I didn’t specify the name of the property in the second example as its pretty clear what the value being passed in is. So I’d only use this where it’s necessary.&lt;/p&gt;
+
+&lt;h3 id=&quot;update&quot;&gt;Update&lt;/h3&gt;
+
+&lt;p&gt;A friend has pointed out that the use of named parameters might also be useful in this case as well:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;person&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;new&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Person&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;Shawn&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Edwards&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When somebody comes to updating this code its a real possibility that they accidently swap the two parameters around. Name them and you’re reducing that risk:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;person&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;new&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Person&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;foreName&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Shawn&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;surname&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Edwards&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I’m also aware that you could make a constant out of the value but I like this method.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/08/27/using-named-parameters-for-constants.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/08/27/using-named-parameters-for-constants.html</guid>
+      </item>
+    
+      <item>
+        <title>ASP.NET You're doing it Wrong. An Introduction to Nancy</title>
+        <description>
+&lt;p&gt;&lt;em&gt;Now I’m sure there are posts like this already available and I know the Nancy wiki is pretty damn good too. However, I’m giving a talk at &lt;a href=&quot;http://www.leeds-sharp.org/events/2013/8&quot;&gt;Leeds Sharp&lt;/a&gt; (my first) in a few weeks and this is as much preparation for this as anything else.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How many of you use ASP.NET MVC? You’re doing it wrong.&lt;/p&gt;
+
+&lt;p&gt;No I’m just joking. While ASP.NET is perfectly acceptable I’m here to show you an alternative, NancyFX. So, as it says on its blog its&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“A lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Which basically means it can be used as a viable replacement for WebAPI or MVC. It’s based upon Sinatra for Ruby, if any of you have heard of that, and I think it offers a really elegant way to write your web site or app. In this first part I’m going to show how easy it is to setup a Nancy application and create some basic &lt;code&gt;GET&lt;/code&gt; and &lt;code&gt;POST&lt;/code&gt; methods. So let’s jump straight in and create the application.&lt;/p&gt;
+
+&lt;p&gt;Firstly you need open up Visual Studio and create a new empty website in visual studio:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/selecting-project-type.png&quot; alt=&quot;Selecting Project Type&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/selecting-project-type-2.png&quot; alt=&quot;Selecting Project Type Two&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then go ahead and delete any pre-generated content. You should end up with a project looking like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/final-layout.png&quot; alt=&quot;Final Layout&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally open up the package manager console and install the Nancy hosting nuget package&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;PM&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Install&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;-&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Package&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Nancy&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Hosting&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Aspnet&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nancy also allows you to host on other &lt;a href=&quot;http://www.nuget.org/packages?q=nancy.hosting&quot;&gt;environments&lt;/a&gt; such as OWIN and as such actually has no dependencies on ASP.NET. But for this example will stick to ASP hosting.&lt;/p&gt;
+
+&lt;p&gt;Now that Nancy is installed we can create our first module. The Nancy website defines a module as “the way of defining the behaviours of your application”, which they are. But for the sake of this article and the fact that most of you are probably coming from ASP.NET MVC it’s comparable to a controller. They are easy to create and don’t force any folder structure or naming convention on you. They just have to inherit from the &lt;code&gt;NancyModule&lt;/code&gt; class. This means you’re free to organise the project as you see fit. So lets create our first one:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;c1&#39;&gt;// Note: There is no requirement to suffix your class name with Module, I just like it.&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;class&lt;/span&gt; &lt;span class=&#39;nc&#39;&gt;TurtleModule&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;NancyModule&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;TurtleModule&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;5&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The next thing we need are routes and this is where it gets a little trickier to explain. The &lt;code&gt;NancyModule&lt;/code&gt; class has a series of property indexers for each of the http verbs that is of type &lt;code&gt;Func&amp;lt;dyanmic, dynamic&amp;gt;&lt;/code&gt;. Where the &lt;code&gt;dynamic&lt;/code&gt; that gets passed in contains any route arguments (I’ll show that later). If indexers are new to you (and they were to me) then take a look at the &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/aa288465.aspx&quot;&gt;msdn article&lt;/a&gt;, it’s got a pretty good explanation.&lt;/p&gt;
+
+&lt;p&gt;To create a &lt;code&gt;GET&lt;/code&gt; route you need to define it in the constructor:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;c1&#39;&gt;// Note: arguments can be named anything.&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/turtle&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;arguments&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Teenage Mutant Ninja Turtles&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;5&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Mind, blown right? I really like the way that Nancy writes. I think it’s very clean and elegant. I like the way each route is defined explicitly, in the module, as oppose to the crazy “Which route is it picking?” method of ASP.NET MVC.&lt;/p&gt;
+
+&lt;p&gt;As for specifying route arguments that’s pretty simple too. There are a number of options from simple pattern matching right through to more complex regular expressions. These are all explained on the &lt;a href=&quot;https://github.com/NancyFx/Nancy/wiki/Defining-routes#pattern&quot;&gt;website&lt;/a&gt; but for my example I’m just going to use a simple pattern match:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/turtle/{name}&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;arguments&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt;     &lt;span class=&#39;c1&#39;&gt;// Note: the arguments are case insensitve. arguments.name is also fine.&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Hello&amp;quot;&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;+&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;arguments&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Name&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;5&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Defining a &lt;code&gt;POST&lt;/code&gt; or &lt;code&gt;PUT&lt;/code&gt; request is exactly the same. The post form is available in the Request property on the NancyModule or you can get it the easy way buy accessing it via model binding (It really is this simple):&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Post&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/turtle&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;arguments&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt;     &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;model&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;this&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Bind&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Turtle&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;();&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;model&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;MaskColour&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;5&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And finally, as an added bonus, instead of defining your routes route on each of the verb methods you can set it by passing it into the base constructor:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt; 1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;class&lt;/span&gt; &lt;span class=&#39;nc&#39;&gt;TurtleModule&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;NancyModule&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 2&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 3&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;TurtleModule&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;base&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/turtle&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 4&lt;/span&gt;     &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 5&lt;/span&gt;         &lt;span class=&#39;n&#39;&gt;Get&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;arguments&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt; 6&lt;/span&gt;         &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;   
+&lt;span class=&#39;lineno&#39;&gt; 7&lt;/span&gt;             &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Teenage Mutant Ninja Turtles&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 8&lt;/span&gt;         &lt;span class=&#39;p&#39;&gt;};&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 9&lt;/span&gt;     &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;10&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That is really all there is to it. There’s plenty more you can do within a module, such as extending it with validation or authentication but I’ll cover that in later posts.&lt;/p&gt;
+
+&lt;p&gt;I’ve created a &lt;a href=&quot;https://gist.github.com/mat-mcloughlin/6282141&quot;&gt;gist&lt;/a&gt; of this code. Next time I’m going to take a look at returning and populating views.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE: As I’ve been reliably informed several time :). You can also use the Nancy &lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/f1e29f61-4dff-4b1e-a14b-6bd0d307611a&quot;&gt;project templates&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Aug 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html</guid>
+      </item>
+    
+      <item>
+        <title>A Basic Example of an IoC Container</title>
+        <description>
+&lt;p&gt;Its bad I know. I’ve been using an IoC Container for while now, but never really knew how they worked. I had an idea, but it wasn’t clear in my head. I got bored last night so I thought I’d have a go at writing a very simple one.&lt;/p&gt;
+
+&lt;p&gt;This example has no error handling and can only handle injecting classes into a single constructor. But for a proof of concept it will do nicely.&lt;/p&gt;
+
+&lt;p&gt;Thinking about it, a simple IoC has to do a couple of things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It needs to allow you to setup your bindings. By this I mean you should be able to tell it what concrete implementation you want returning for each interface. Some IoC containers do this automatically by scanning your assemblies, for my example you’ll have to define them explicitly.&lt;/li&gt;
+
+&lt;li&gt;It then has to return an implementation when you try and resolve the interface.&lt;/li&gt;
+
+&lt;li&gt;Any dependencies your implementation is dependent on also need to be resolved recursively.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And thats pretty much it. Sure, there are lots of additional functionality in most of the popular IoC containers but this is the core functionality.&lt;/p&gt;
+
+&lt;p&gt;So to the code. The first thing I needed to do was allow you to store the bindings. I decided to store them in a dictionary of type:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;private&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;readonly&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Dictionary&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Type&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Func&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;kt&#39;&gt;object&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;_providers&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So that the concrete implementation wouldn’t get created until it was called for. Along with the following method to add to it&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Bind&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;TInterface&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;TConcrete&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;()&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;where&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;TConcrete&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;TInterface&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt;     &lt;span class=&#39;n&#39;&gt;_providers&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;k&#39;&gt;typeof&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;TInterface&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)]&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Resolve&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;k&#39;&gt;typeof&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;TConcrete&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;));&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This allows you to pass in a interface and concrete class that inherits that interface like so:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;container&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;new&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Container&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;container&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Bind&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;ICar&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Car&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;where car is:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;class&lt;/span&gt; &lt;span class=&#39;nc&#39;&gt;Car&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;ICar&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That bit is simple. The next stage is to be able to resolve that type when it is called for. That means&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Using refelection to get a reference to the class constructor.&lt;/li&gt;
+
+&lt;li&gt;Get the list of parameters for said constructor.&lt;/li&gt;
+
+&lt;li&gt;Resolve each of these parameters.&lt;/li&gt;
+
+&lt;li&gt;Invoke the constructor whilst passing in the parameters.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The resulting method is below. It could be shortend with linq and there is no error checking, however:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt; 1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;private&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;object&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;Resolve&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Type&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;type&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 2&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 3&lt;/span&gt;     &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;constructor&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;type&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;GetConstructors&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;().&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;SingleOrDefault&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 4&lt;/span&gt;     &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parametersInfo&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;constructor&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;GetParameters&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 5&lt;/span&gt;     &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parameters&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;new&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;List&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;kt&#39;&gt;object&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;();&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 6&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt; 7&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;foreach&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parameterInfo&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;in&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;parametersInfo&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 8&lt;/span&gt;     &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt; 9&lt;/span&gt;         &lt;span class=&#39;n&#39;&gt;parameters&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Add&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;_providers&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;parameterInfo&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;ParameterType&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]());&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;10&lt;/span&gt;     &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;11&lt;/span&gt; 
+&lt;span class=&#39;lineno&#39;&gt;12&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;constructor&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Invoke&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;parameters&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;ToArray&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;());&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;13&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Finally a public method to allow you to resolve:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;public&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;T&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;Resolve&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;T&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;()&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;2&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;3&lt;/span&gt;     &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;T&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;_providers&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;k&#39;&gt;typeof&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;T&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)]();&lt;/span&gt;
+&lt;span class=&#39;lineno&#39;&gt;4&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That is called as such:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;csharp&#39;&gt;&lt;span class=&#39;lineno&#39;&gt;1&lt;/span&gt; &lt;span class=&#39;kt&#39;&gt;var&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;car&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;container&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;Resolve&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;ICar&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;&amp;gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And thats it. For a complete example see this &lt;a href=&quot;https://gist.github.com/mat-mcloughlin/6240821&quot;&gt;gist&lt;/a&gt;. Like I said, there’s a lot more involved in IoC containers such as &lt;a href=&quot;http://www.ninject.org/&quot;&gt;Ninject&lt;/a&gt; and &lt;a href=&quot;https://github.com/grumpydev/TinyIoC&quot;&gt;TinyIoC&lt;/a&gt; (my favourite of the moment) but the basic principle is pretty simple.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Aug 2013 00:00:00 +0100</pubDate>
+        <link>http://mat-mcloughlin.net/2013/08/15/a-basic-example-of-an-ioc-container.html</link>
+        <guid isPermaLink="true">http://mat-mcloughlin.net/2013/08/15/a-basic-example-of-an-ioc-container.html</guid>
+      </item>
+    
+  </channel>
+</rss>

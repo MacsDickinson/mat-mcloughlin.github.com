@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  	<title>Mat McLoughlin</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+	<meta name="description" content=".Net developer and lover of javascript. This blog contains my thoughts and ramblings.">
+	<meta name="author" content="Mathew McLoughlin">
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!-- need to sort the rss feed -->
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  
+	<link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='/stylesheets/includes/fonts/fontawesome/font-awesome.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/media-queries.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/pygments.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/railscasts.css' type='text/css' media='screen' />
+
+	<style type="text/css">
+		a, #cancel-comment-reply i {
+			color:#DD574C
+		}
+
+		.next-prev a, #respond .respond-submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit { 
+			background:#DD574C
+		}
+
+		.infinite-scroll #infinite-handle {
+			overflow: auto;
+		}
+	</style>
+
+	<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=3.6.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C500%2C700%2C800&#038;ver=3.6.1' type='text/css' media='all' />
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body class="home blog infinite-scroll"> 
+	<header role="banner" class="header"> 
+		<hgroup>
+			<h1 class="logo-text">
+				<a href="/" title="Mat McLoughlin">Mat McLoughlin</a>
+			</h1>
+			<h2 class="logo-subtitle">This blog contains my thoughts and ramblings</h2> 
+		</hgroup> 
+  		<nav role="navigation" class="header-nav"> 
+  			<ul id="menu-header" class="nav">
+    			<li id="menu-item-blog">
+      				<a href="/">Blog</a>
+    			</li>
+    			<!--<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">About</a>
+    			</li>-->
+    			<li id="menu-item-archive">
+  					<a href="/archives.html">Archive</a>
+    			</li>
+    			<!--<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">Contact</a>
+    			</li>-->
+  			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main">
+			<div id="content">
+				<style type="text/css">
+.nav #menu-item-blog a {
+    color: #fff;
+}
+</style>
+
+<div class="posts">
+    <article class="post" style="margin-bottom: 0;"> 
+        
+            <a class="featured-image grayscale" href="/2013/08/15/a-basic-example-of-an-ioc-container.html" title="A Basic Example of an IoC Container">
+                <img width="1400" height="600" src="/images/posts/inversion_house_artwork.jpg" class="attachment-large-image wp-post-image" alt="A Basic Example of an IoC Container" />
+            </a>
+        
+
+        <div class="box-wrap">
+            <div class="box"> 
+                <header class="post-header">
+                    <div class="date-title">15 August, 2013</div>
+                    <h2 class="entry-title">
+                        <a href="http://mat-mcloughlin.net/2013/08/15/a-basic-example-of-an-ioc-container.html" title="A Basic Example of an IoC Container">A Basic Example of an IoC Container</a>
+                    </h2> 
+                </header>
+                <div class="post-content">
+                    
+<p>Its bad I know. I’ve been using an IoC Container for while now, but never really knew how they worked. I had an idea, but it wasn’t clear in my head. I got bored last night so I thought I’d have a go at writing a very simple one.</p>
+
+<p>This example has no error handling and can only handle injecting classes into a single constructor. But for a proof of concept it will do nicely.</p>
+
+<p>Thinking about it, a simple IoC has to do a couple of things:</p>
+
+<ol>
+<li>It needs to allow you to setup your bindings. By this I mean you should be able to tell it what concrete implementation you want returning for each interface. Some IoC containers do this automatically by scanning your assemblies, for my example you’ll have to define them explicitly.</li>
+
+<li>It then has to return an implementation when you try and resolve the interface.</li>
+
+<li>Any dependencies your implementation is dependent on also need to be resolved recursively.</li>
+</ol>
+
+<p>And thats pretty much it. Sure, there are lots of additional functionality in most of the popular IoC containers but this is the core functionality.</p>
+
+<p>So to the code. The first thing I needed to do was allow you to store the bindings. I decided to store them in a dictionary of type:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='k'>private</span> <span class='k'>readonly</span> <span class='n'>Dictionary</span><span class='p'>&lt;</span><span class='n'>Type</span><span class='p'>,</span> <span class='n'>Func</span><span class='p'>&lt;</span><span class='kt'>object</span><span class='p'>&gt;&gt;</span> <span class='n'>_providers</span><span class='p'>;</span>
+</code></pre></div>
+<p>So that the concrete implementation wouldn’t get created until it was called for. Along with the following method to add to it</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='k'>public</span> <span class='k'>void</span> <span class='n'>Bind</span><span class='p'>&lt;</span><span class='n'>TInterface</span><span class='p'>,</span> <span class='n'>TConcrete</span><span class='p'>&gt;()</span> <span class='k'>where</span> <span class='n'>TConcrete</span> <span class='p'>:</span> <span class='n'>TInterface</span>
+<span class='lineno'>2</span> <span class='p'>{</span>
+<span class='lineno'>3</span>     <span class='n'>_providers</span><span class='p'>[</span><span class='k'>typeof</span><span class='p'>(</span><span class='n'>TInterface</span><span class='p'>)]</span> <span class='p'>=</span> <span class='p'>()</span> <span class='p'>=&gt;</span> <span class='n'>Resolve</span><span class='p'>(</span><span class='k'>typeof</span><span class='p'>(</span><span class='n'>TConcrete</span><span class='p'>));</span>
+<span class='lineno'>4</span> <span class='p'>}</span>
+</code></pre></div>
+<p>This allows you to pass in a interface and concrete class that inherits that interface like so:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='kt'>var</span> <span class='n'>container</span> <span class='p'>=</span> <span class='k'>new</span> <span class='n'>Container</span><span class='p'>();</span>
+<span class='lineno'>2</span> <span class='n'>container</span><span class='p'>.</span><span class='n'>Bind</span><span class='p'>&lt;</span><span class='n'>ICar</span><span class='p'>,</span> <span class='n'>Car</span><span class='p'>&gt;();</span>
+</code></pre></div>
+<p>where car is:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='k'>class</span> <span class='nc'>Car</span> <span class='p'>:</span> <span class='n'>ICar</span> <span class='p'>{</span> <span class='p'>}</span>
+</code></pre></div>
+<p>That bit is simple. The next stage is to be able to resolve that type when it is called for. That means</p>
+
+<ol>
+<li>Using refelection to get a reference to the class constructor.</li>
+
+<li>Get the list of parameters for said constructor.</li>
+
+<li>Resolve each of these parameters.</li>
+
+<li>Invoke the constructor whilst passing in the parameters.</li>
+</ol>
+
+<p>The resulting method is below. It could be shortend with linq and there is no error checking, however:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'> 1</span> <span class='k'>private</span> <span class='kt'>object</span> <span class='nf'>Resolve</span><span class='p'>(</span><span class='n'>Type</span> <span class='n'>type</span><span class='p'>)</span>
+<span class='lineno'> 2</span> <span class='p'>{</span>
+<span class='lineno'> 3</span>     <span class='kt'>var</span> <span class='n'>constructor</span> <span class='p'>=</span> <span class='n'>type</span><span class='p'>.</span><span class='n'>GetConstructors</span><span class='p'>().</span><span class='n'>SingleOrDefault</span><span class='p'>();</span>
+<span class='lineno'> 4</span>     <span class='kt'>var</span> <span class='n'>parametersInfo</span> <span class='p'>=</span> <span class='n'>constructor</span><span class='p'>.</span><span class='n'>GetParameters</span><span class='p'>();</span>
+<span class='lineno'> 5</span>     <span class='kt'>var</span> <span class='n'>parameters</span> <span class='p'>=</span> <span class='k'>new</span> <span class='n'>List</span><span class='p'>&lt;</span><span class='kt'>object</span><span class='p'>&gt;();</span>
+<span class='lineno'> 6</span> 
+<span class='lineno'> 7</span>     <span class='k'>foreach</span> <span class='p'>(</span><span class='kt'>var</span> <span class='n'>parameterInfo</span> <span class='k'>in</span> <span class='n'>parametersInfo</span><span class='p'>)</span>
+<span class='lineno'> 8</span>     <span class='p'>{</span>
+<span class='lineno'> 9</span>         <span class='n'>parameters</span><span class='p'>.</span><span class='n'>Add</span><span class='p'>(</span><span class='n'>_providers</span><span class='p'>[</span><span class='n'>parameterInfo</span><span class='p'>.</span><span class='n'>ParameterType</span><span class='p'>]());</span>
+<span class='lineno'>10</span>     <span class='p'>}</span>
+<span class='lineno'>11</span> 
+<span class='lineno'>12</span>     <span class='k'>return</span> <span class='n'>constructor</span><span class='p'>.</span><span class='n'>Invoke</span><span class='p'>(</span><span class='n'>parameters</span><span class='p'>.</span><span class='n'>ToArray</span><span class='p'>());</span>
+<span class='lineno'>13</span> <span class='p'>}</span>
+</code></pre></div>
+<p>Finally a public method to allow you to resolve:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='k'>public</span> <span class='n'>T</span> <span class='n'>Resolve</span><span class='p'>&lt;</span><span class='n'>T</span><span class='p'>&gt;()</span>
+<span class='lineno'>2</span> <span class='p'>{</span>
+<span class='lineno'>3</span>     <span class='k'>return</span> <span class='p'>(</span><span class='n'>T</span><span class='p'>)</span><span class='n'>_providers</span><span class='p'>[</span><span class='k'>typeof</span><span class='p'>(</span><span class='n'>T</span><span class='p'>)]();</span>
+<span class='lineno'>4</span> <span class='p'>}</span>
+</code></pre></div>
+<p>That is called as such:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='kt'>var</span> <span class='n'>car</span> <span class='p'>=</span> <span class='n'>container</span><span class='p'>.</span><span class='n'>Resolve</span><span class='p'>&lt;</span><span class='n'>ICar</span><span class='p'>&gt;();</span>
+</code></pre></div>
+<p>And thats it. For a complete example see this <a href="https://gist.github.com/mat-mcloughlin/6240821">gist</a>. Like I said, there’s a lot more involved in IoC containers such as <a href="http://www.ninject.org/">Ninject</a> and <a href="https://github.com/grumpydev/TinyIoC">TinyIoC</a> (my favourite of the moment) but the basic principle is pretty simple.</p>
+
+                </div>
+                <ul class="meta">
+                    <div class="meta-title">Share</div>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mat-mcloughlin.github.io/2013/08/15/a-basic-example-of-an-ioc-container.html" data-text="A Basic Example of an IoC Container" data-via="mat_mcloughlin">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li> 
+                        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+                        <script>(function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = '//hnbutton.appspot.com/static/hn.min.js'; s.parentNode.insertBefore(g, s); }(document, 'script'));</script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+                            <script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://mat-mcloughlin.github.io/2013/08/15/a-basic-example-of-an-ioc-container.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                        </li>
+                        <li class="next-prev-mobile">&nbsp;</li>
+                        <li class="prev-mobile next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/bart-goes-under-the-bay/" rel="prev"><i class="icon-arrow-left"></i> Previous Post</a>
+                        </li>
+                        <li class="next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/a-trip-to-the-san-francisco-bay/" rel="next"><i class="icon-arrow-right"></i> Next Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </article>
+    </div>
+
+    <div id="comment-jump" class="comments"><div id="comments">
+            <div class="comments-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'invalidargblog'; // required: replace example with your forum shortname
+
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        
+            <div class="prev-post"> 
+                <a href="/2013/08/12/javascript-can-double-your-codebase-so-make-sure-you-need-it-first.html" rel="prev">Previous Post</a>
+            </div>
+        
+        
+            <div class="next-post"> 
+                <a href="/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html" rel="next">Next Post</a>
+            </div>
+        
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footer-inside">
+			<div id="text-2" class="widget widget_text">
+				<h2 class="widgettitle">Mathew McLoughlin</h2>
+				<div class="textwidget">Net developer and lover of javascript. I enjoy climbing and surfing (in cold water). Powered by Beard.</div>
+			</div>
+			<div id="recent-posts-3" class="widget widget_recent_entries">
+				<h2 class="widgettitle">Archive</h2>
+				<ul>
+					
+						<li><a href="/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html" title="Dark Matter Developer != Bad Developers" title="Dark Matter Developer != Bad Developers">Dark Matter Developer != Bad Developers</a></li>
+					
+						<li><a href="/2013/11/02/step-away-from-the-keyboard.html" title="Step Away From the Keyboard" title="Step Away From the Keyboard">Step Away From the Keyboard</a></li>
+					
+						<li><a href="/2013/10/31/nancy-gets-route-constraints.html" title="Nancy gets Route Constraints (Beta Only)" title="Nancy gets Route Constraints (Beta Only)">Nancy gets Route Constraints (Beta Only)</a></li>
+					
+				</ul>
+			</div>
+			<div id="archives-2" class="widget widget_archive">
+				<h2 class="widgettitle">Social Links</h2>
+				<ul>
+					<li>
+						<i class="icon-twitter"></i> <a href="https://twitter.com/mat_mcloughlin" title="Twitter">Twitter</a></li>
+					<li>
+						<i class="icon-github"></i> <a href="https://github.com/mat-mcloughlin" title="GitHub">GitHub</a>
+					</li>
+					<li>
+						<i class="icon-rss"></i> <a href="/rss.xml" title="August 2012">RSS</a>
+					</li>
+				</ul>
+			</div>
+		</div> 
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1746767-6']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  	<title>Mat McLoughlin</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+	<meta name="description" content=".Net developer and lover of javascript. This blog contains my thoughts and ramblings.">
+	<meta name="author" content="Mathew McLoughlin">
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!-- need to sort the rss feed -->
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  
+	<link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='/stylesheets/includes/fonts/fontawesome/font-awesome.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/media-queries.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/pygments.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/railscasts.css' type='text/css' media='screen' />
+
+	<style type="text/css">
+		a, #cancel-comment-reply i {
+			color:#DD574C
+		}
+
+		.next-prev a, #respond .respond-submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit { 
+			background:#DD574C
+		}
+
+		.infinite-scroll #infinite-handle {
+			overflow: auto;
+		}
+	</style>
+
+	<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=3.6.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C500%2C700%2C800&#038;ver=3.6.1' type='text/css' media='all' />
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body class="home blog infinite-scroll"> 
+	<header role="banner" class="header"> 
+		<hgroup>
+			<h1 class="logo-text">
+				<a href="/" title="Mat McLoughlin">Mat McLoughlin</a>
+			</h1>
+			<h2 class="logo-subtitle">This blog contains my thoughts and ramblings</h2> 
+		</hgroup> 
+  		<nav role="navigation" class="header-nav"> 
+  			<ul id="menu-header" class="nav">
+    			<li id="menu-item-blog">
+      				<a href="/">Blog</a>
+    			</li>
+    			<!--<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">About</a>
+    			</li>-->
+    			<li id="menu-item-archive">
+  					<a href="/archives.html">Archive</a>
+    			</li>
+    			<!--<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">Contact</a>
+    			</li>-->
+  			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main">
+			<div id="content">
+				<style type="text/css">
+.nav #menu-item-blog a {
+    color: #fff;
+}
+</style>
+
+<div class="posts">
+    <article class="post" style="margin-bottom: 0;"> 
+        
+            <a class="featured-image grayscale" href="/2013/08/29/my-first-talk-and-what-I-learnt.html" title="My first talk and what it Taught Me">
+                <img width="1400" height="600" src="/images/posts/first-talk.jpg" class="attachment-large-image wp-post-image" alt="My first talk and what it Taught Me" />
+            </a>
+        
+
+        <div class="box-wrap">
+            <div class="box"> 
+                <header class="post-header">
+                    <div class="date-title">29 August, 2013</div>
+                    <h2 class="entry-title">
+                        <a href="http://mat-mcloughlin.net/2013/08/29/my-first-talk-and-what-I-learnt.html" title="My first talk and what it Taught Me">My first talk and what it Taught Me</a>
+                    </h2> 
+                </header>
+                <div class="post-content">
+                    
+<p>For those of you who don’t know, I did my first talk a couple of nights ago (29/8/2013) at <a href="http://www.leeds-sharp.org/">Leeds Sharp</a>. It was on <a href="http://nancyfx.org/">Nancy</a> and I think it went pretty well. However, I’ve already noticed a lot of ways that I need to improve.</p>
+
+<p>I organised my talk like this:</p>
+
+<ol>
+<li>A quick introduction about me and what I do.</li>
+
+<li>An introduction to the Nancy framework. When it was created, why and by whom.</li>
+
+<li>I talked about the <a href="https://github.com/NancyFx/Nancy/wiki/Introduction#the-super-duper-happy-path">Super Duper Happy Path</a>.</li>
+
+<li>I demonstrated how to create a NancyModule and explained some of the benefits.</li>
+
+<li>I gave examples on how to use route arguments, model bind and validate.</li>
+
+<li>I showed how to create and return views.</li>
+
+<li>I covered testing and the Nancy testing framework.</li>
+
+<li>Finally I implemented Nancy into an existing ASP.NET MVC application.</li>
+</ol>
+
+<p>It took a little over an hour and I realised I need to do these things:</p>
+
+<h2 id="relax">Relax</h2>
+
+<p>I’m not a nervous person by nature, but this was a new experience for me. I’ve given talks before but never to my peers, so I was a little nervous. I found taking 5 minutes to calm myself down before entering the room really helped.</p>
+
+<h2 id="speak_slowly">Speak Slowly</h2>
+
+<p>Because you are going to be nervous you’re naturally going to want to talk more, or at least that’s what happened to me. I made a conscious effort to slow my speech down. Not the point that I sounded like I was being played at half speed, but just enough so that it gave me time to think about my sentences.</p>
+
+<h2 id="learn_the_lingo">Learn the Lingo</h2>
+
+<p>I know one of the things I do a lot of at work or during normal conversation is to replace terms with “thingy” or “whats-it”.</p>
+
+<blockquote>
+<p>You know that whats-it that pulls out the data. Can you use the thingy pattern on it. Yeah you know what I mean??</p>
+</blockquote>
+
+<p>No, no they don’t. I spent time learning the proper terminology for the field and made sure that I used it.</p>
+
+<h2 id="avoid_catchphrases">Avoid Catchphrases</h2>
+
+<p>I didn’t do very well on this during my talk. I must have said:</p>
+
+<blockquote>
+<p>And it works like that “straight out of the box”</p>
+</blockquote>
+
+<p>So many times. I knew I was constantly repeating it but I couldn’t think of anything else to say. I think speaking slower helped me to avoid doing this more, but its something I’m going to have to work on.</p>
+
+<h2 id="if_you_dont_know_the_answer_just_admit_it">If you don’t know the answer just admit it</h2>
+
+<p>I think this is the biggest fear for anybody giving a talk. It was for me. But then I realised, unless you’re Jon Skeet, there are going to be gaps in your knowledge. This is the case for everybody. I decided if I didn’t know the answer I would just say. But I would also offer to find out for them, or give them a way to find out themselves.</p>
+
+<h2 id="notes">Notes</h2>
+
+<p>Have notes. You’re going to forget what you are wanting to show. I did and I couldn’t get access to my notes due to lack of internet connection. It wasn’t a disaster, but it could have been.</p>
+
+<h2 id="have_a_finished_demo">Have a Finished Demo</h2>
+
+<p>I knew there was the possibility that something could go wrong. Probably because I’d lose the ability to type with all those people watching me. I figured if I had a demo to go back to, it wouldn’t be as big an issue.</p>
+
+<h2 id="dont_use_resharper_or_shortcuts">Don’t use Resharper or Shortcuts</h2>
+
+<p>I wanted people to follow along with my talk as the crowd was only small. I realised soon into it that if I start flicking around with Resharper shortcuts nobody would be able to follow. Better still I tried to use the mouse for navigation. I think this made it easier to follow.</p>
+
+<h2 id="keep_your_examples_simple">Keep your examples simple</h2>
+
+<p>I went to NDC at Oslo this year and watched a talk by <a href="https://twitter.com/davidfowl">@davidfowl</a> and <a href="https://twitter.com/DamianEdwards">@DamianEdwards</a>. During the course of their talk they coded, from scratch, a basic SignalR example. I was very impressed, you really should watch <a href="http://vimeo.com/68383353">it</a>. There was no way I could do anything so complicated under pressure. So I decided to keep my examples simple then less could go wrong.</p>
+
+<h2 id="you_can_never_have_enough_water">You can never have enough water</h2>
+
+<p>My throat has never been so dry. I had one small cup of water. Big mistake. I need to make sure I have at least a bottle but not drink so much I need the toilet :D</p>
+
+<p>So thats pretty much it. These are the things I realised after my first talk. I’m hoping to do more soon and to get out into the wider community as I really enjoyed it.</p>
+
+<p>I’ve got a feeling I’m going to learn a lot more than the people in my audience do!</p>
+
+                </div>
+                <ul class="meta">
+                    <div class="meta-title">Share</div>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mat-mcloughlin.net/2013/08/29/my-first-talk-and-what-I-learnt.html" data-text="My first talk and what it Taught Me" data-via="mat_mcloughlin">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li> 
+                        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+                        <script>(function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = '//hnbutton.appspot.com/static/hn.min.js'; s.parentNode.insertBefore(g, s); }(document, 'script'));</script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+                            <script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://mat-mcloughlin.net/2013/08/29/my-first-talk-and-what-I-learnt.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                        </li>
+                        <li class="next-prev-mobile">&nbsp;</li>
+                        <li class="prev-mobile next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/bart-goes-under-the-bay/" rel="prev"><i class="icon-arrow-left"></i> Previous Post</a>
+                        </li>
+                        <li class="next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/a-trip-to-the-san-francisco-bay/" rel="next"><i class="icon-arrow-right"></i> Next Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </article>
+    </div>
+
+    <div id="comment-jump" class="comments"><div id="comments">
+            <div class="comments-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'invalidargblog'; // required: replace example with your forum shortname
+
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        
+            <div class="prev-post"> 
+                <a href="/2013/08/27/using-named-parameters-for-constants.html" rel="prev">Previous Post</a>
+            </div>
+        
+        
+            <div class="next-post"> 
+                <a href="/2013/09/15/aspnet-youre-doing-it-wrong-views.html" rel="next">Next Post</a>
+            </div>
+        
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footer-inside">
+			<div id="text-2" class="widget widget_text">
+				<h2 class="widgettitle">Mathew McLoughlin</h2>
+				<div class="textwidget">Net developer and lover of javascript. I enjoy climbing and surfing (in cold water). Powered by Beard.</div>
+			</div>
+			<div id="recent-posts-3" class="widget widget_recent_entries">
+				<h2 class="widgettitle">Archive</h2>
+				<ul>
+					
+						<li><a href="/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html" title="Dark Matter Developer != Bad Developers" title="Dark Matter Developer != Bad Developers">Dark Matter Developer != Bad Developers</a></li>
+					
+						<li><a href="/2013/11/02/step-away-from-the-keyboard.html" title="Step Away From the Keyboard" title="Step Away From the Keyboard">Step Away From the Keyboard</a></li>
+					
+						<li><a href="/2013/10/31/nancy-gets-route-constraints.html" title="Nancy gets Route Constraints (Beta Only)" title="Nancy gets Route Constraints (Beta Only)">Nancy gets Route Constraints (Beta Only)</a></li>
+					
+				</ul>
+			</div>
+			<div id="archives-2" class="widget widget_archive">
+				<h2 class="widgettitle">Social Links</h2>
+				<ul>
+					<li>
+						<i class="icon-twitter"></i> <a href="https://twitter.com/mat_mcloughlin" title="Twitter">Twitter</a></li>
+					<li>
+						<i class="icon-github"></i> <a href="https://github.com/mat-mcloughlin" title="GitHub">GitHub</a>
+					</li>
+					<li>
+						<i class="icon-rss"></i> <a href="/rss.xml" title="August 2012">RSS</a>
+					</li>
+				</ul>
+			</div>
+		</div> 
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1746767-6']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

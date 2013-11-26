@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  	<title>Mat McLoughlin</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+	<meta name="description" content=".Net developer and lover of javascript. This blog contains my thoughts and ramblings.">
+	<meta name="author" content="Mathew McLoughlin">
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!-- need to sort the rss feed -->
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  
+	<link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='/stylesheets/includes/fonts/fontawesome/font-awesome.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/media-queries.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/pygments.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/railscasts.css' type='text/css' media='screen' />
+
+	<style type="text/css">
+		a, #cancel-comment-reply i {
+			color:#DD574C
+		}
+
+		.next-prev a, #respond .respond-submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit { 
+			background:#DD574C
+		}
+
+		.infinite-scroll #infinite-handle {
+			overflow: auto;
+		}
+	</style>
+
+	<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=3.6.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C500%2C700%2C800&#038;ver=3.6.1' type='text/css' media='all' />
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body class="home blog infinite-scroll"> 
+	<header role="banner" class="header"> 
+		<hgroup>
+			<h1 class="logo-text">
+				<a href="/" title="Mat McLoughlin">Mat McLoughlin</a>
+			</h1>
+			<h2 class="logo-subtitle">This blog contains my thoughts and ramblings</h2> 
+		</hgroup> 
+  		<nav role="navigation" class="header-nav"> 
+  			<ul id="menu-header" class="nav">
+    			<li id="menu-item-blog">
+      				<a href="/">Blog</a>
+    			</li>
+    			<!--<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">About</a>
+    			</li>-->
+    			<li id="menu-item-archive">
+  					<a href="/archives.html">Archive</a>
+    			</li>
+    			<!--<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">Contact</a>
+    			</li>-->
+  			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main">
+			<div id="content">
+				<style type="text/css">
+.nav #menu-item-blog a {
+    color: #fff;
+}
+</style>
+
+<div class="posts">
+    <article class="post" style="margin-bottom: 0;"> 
+        
+
+        <div class="box-wrap">
+            <div class="box"> 
+                <header class="post-header">
+                    <div class="date-title">12 August, 2013</div>
+                    <h2 class="entry-title">
+                        <a href="http://mat-mcloughlin.net/2013/08/12/javascript-can-double-your-codebase-so-make-sure-you-need-it-first.html" title="JavaScript can double your codebase so make sure you need it first">JavaScript can double your codebase so make sure you need it first</a>
+                    </h2> 
+                </header>
+                <div class="post-content">
+                    
+<p>There’s been a JavaScript/SPA revolution in the past couple of years. Its now back in fashion and a lot of people are using it. I’m here to tell you it might not be worth it and that you should stick to server side code.</p>
+
+<p>I use JavaScript everyday. Our main application is a SPA (kind of) and it works well. However, it did take a long time to write and our codebase is a lot bigger and more complicated because of it. It’s made me realise that you should think very carefully before jumping on the bandwagon. However, there are some positives to a heavy JavaScript client:</p>
+
+<ul>
+<li>It gives your website a native feel. This can really help improve the user experience, although a native app would really be better.</li>
+
+<li>It can be faster because, after the initial page load, you don’t need to send as much data from the server.</li>
+
+<li>It’s a good way to dog food your API if it is for public consumption (this was a big one for us).</li>
+
+<li>It can help you to manage disconnections. Having the majority of your code on the client can be great if the user is in area of poor connectivity. This can be difficult to manage.</li>
+</ul>
+
+<p>Those advantages are great but do you need them? Because they bring a lot of headaches:</p>
+
+<ul>
+<li>Because the client side is completely separate from the server it means you have a lot of code duplication. In particular you’ll have to duplicate the majority of your models and validation. Then there’s the code to convert these models in a fashion that is suitable for sending to the server etc.</li>
+
+<li>It puts a lot more of the processing on the clients and as much as we’d like to pretend everybody has powerful devices it’s not always true.</li>
+
+<li>You have to take into consideration all the different browsers more than you would if you kept your code on the client. IE6 may be dead but there are still a lot of inconsistencies between most modern browsers.</li>
+
+<li>You have to expose your API. This means you’ll probably have to manage authorization on the client as well as the server.</li>
+
+<li>Chances are your team isn’t as well versed in JavaScript as they are in their chosen server side language meaning there will be a learning curve.</li>
+
+<li>You have to write a lot more code for managing client side navigation.</li>
+
+<li>You’ll have a much larger dependency on third party libraries as the JavaScript community is heavily built on these.</li>
+</ul>
+
+<p>It just seems like you’re increasing the size of your codebase (and tests) whilst at the same time reducing maintainability and increasing the probability of problems in your code. All for very few, possibly unnecessary, gains. I’m not saying there isn’t a place for JS in our world. I’m saying think carefully. Chances are a traditional MVC app is more than adequate for your needs and it will speed up development times if you don’t have to worry about it. Allowing you to get your product to market quicker and think more about functionality instead.</p>
+
+                </div>
+                <ul class="meta">
+                    <div class="meta-title">Share</div>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mat-mcloughlin.github.io/2013/08/12/javascript-can-double-your-codebase-so-make-sure-you-need-it-first.html" data-text="JavaScript can double your codebase so make sure you need it first" data-via="mat_mcloughlin">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li> 
+                        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+                        <script>(function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = '//hnbutton.appspot.com/static/hn.min.js'; s.parentNode.insertBefore(g, s); }(document, 'script'));</script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+                            <script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://mat-mcloughlin.github.io/2013/08/12/javascript-can-double-your-codebase-so-make-sure-you-need-it-first.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                        </li>
+                        <li class="next-prev-mobile">&nbsp;</li>
+                        <li class="prev-mobile next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/bart-goes-under-the-bay/" rel="prev"><i class="icon-arrow-left"></i> Previous Post</a>
+                        </li>
+                        <li class="next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/a-trip-to-the-san-francisco-bay/" rel="next"><i class="icon-arrow-right"></i> Next Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </article>
+    </div>
+
+    <div id="comment-jump" class="comments"><div id="comments">
+            <div class="comments-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'invalidargblog'; // required: replace example with your forum shortname
+
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        
+            <div class="prev-post"> 
+                <a href="/2013/07/22/why-im-no-longer-giving-up-on-csharp.html" rel="prev">Previous Post</a>
+            </div>
+        
+        
+            <div class="next-post"> 
+                <a href="/2013/08/15/a-basic-example-of-an-ioc-container.html" rel="next">Next Post</a>
+            </div>
+        
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footer-inside">
+			<div id="text-2" class="widget widget_text">
+				<h2 class="widgettitle">Mathew McLoughlin</h2>
+				<div class="textwidget">Net developer and lover of javascript. I enjoy climbing and surfing (in cold water). Powered by Beard.</div>
+			</div>
+			<div id="recent-posts-3" class="widget widget_recent_entries">
+				<h2 class="widgettitle">Archive</h2>
+				<ul>
+					
+						<li><a href="/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html" title="Dark Matter Developer != Bad Developers" title="Dark Matter Developer != Bad Developers">Dark Matter Developer != Bad Developers</a></li>
+					
+						<li><a href="/2013/11/02/step-away-from-the-keyboard.html" title="Step Away From the Keyboard" title="Step Away From the Keyboard">Step Away From the Keyboard</a></li>
+					
+						<li><a href="/2013/10/31/nancy-gets-route-constraints.html" title="Nancy gets Route Constraints (Beta Only)" title="Nancy gets Route Constraints (Beta Only)">Nancy gets Route Constraints (Beta Only)</a></li>
+					
+				</ul>
+			</div>
+			<div id="archives-2" class="widget widget_archive">
+				<h2 class="widgettitle">Social Links</h2>
+				<ul>
+					<li>
+						<i class="icon-twitter"></i> <a href="https://twitter.com/mat_mcloughlin" title="Twitter">Twitter</a></li>
+					<li>
+						<i class="icon-github"></i> <a href="https://github.com/mat-mcloughlin" title="GitHub">GitHub</a>
+					</li>
+					<li>
+						<i class="icon-rss"></i> <a href="/rss.xml" title="August 2012">RSS</a>
+					</li>
+				</ul>
+			</div>
+		</div> 
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1746767-6']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

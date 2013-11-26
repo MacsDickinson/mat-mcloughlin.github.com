@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  	<title>Mat McLoughlin</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+	<meta name="description" content=".Net developer and lover of javascript. This blog contains my thoughts and ramblings.">
+	<meta name="author" content="Mathew McLoughlin">
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!-- need to sort the rss feed -->
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  
+	<link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='/stylesheets/includes/fonts/fontawesome/font-awesome.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/media-queries.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/pygments.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/railscasts.css' type='text/css' media='screen' />
+
+	<style type="text/css">
+		a, #cancel-comment-reply i {
+			color:#DD574C
+		}
+
+		.next-prev a, #respond .respond-submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit { 
+			background:#DD574C
+		}
+
+		.infinite-scroll #infinite-handle {
+			overflow: auto;
+		}
+	</style>
+
+	<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=3.6.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C500%2C700%2C800&#038;ver=3.6.1' type='text/css' media='all' />
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body class="home blog infinite-scroll"> 
+	<header role="banner" class="header"> 
+		<hgroup>
+			<h1 class="logo-text">
+				<a href="/" title="Mat McLoughlin">Mat McLoughlin</a>
+			</h1>
+			<h2 class="logo-subtitle">This blog contains my thoughts and ramblings</h2> 
+		</hgroup> 
+  		<nav role="navigation" class="header-nav"> 
+  			<ul id="menu-header" class="nav">
+    			<li id="menu-item-blog">
+      				<a href="/">Blog</a>
+    			</li>
+    			<!--<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">About</a>
+    			</li>-->
+    			<li id="menu-item-archive">
+  					<a href="/archives.html">Archive</a>
+    			</li>
+    			<!--<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">Contact</a>
+    			</li>-->
+  			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main">
+			<div id="content">
+				<style type="text/css">
+.nav #menu-item-blog a {
+    color: #fff;
+}
+</style>
+
+<div class="posts">
+    <article class="post" style="margin-bottom: 0;"> 
+        
+            <a class="featured-image grayscale" href="/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html" title="ASP.NET You're doing it Wrong. An Introduction to Nancy">
+                <img width="1400" height="600" src="/images/posts/nancy.png" class="attachment-large-image wp-post-image" alt="ASP.NET You're doing it Wrong. An Introduction to Nancy" />
+            </a>
+        
+
+        <div class="box-wrap">
+            <div class="box"> 
+                <header class="post-header">
+                    <div class="date-title">20 August, 2013</div>
+                    <h2 class="entry-title">
+                        <a href="http://mat-mcloughlin.net/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html" title="ASP.NET You're doing it Wrong. An Introduction to Nancy">ASP.NET You're doing it Wrong. An Introduction to Nancy</a>
+                    </h2> 
+                </header>
+                <div class="post-content">
+                    
+<p><em>Now I’m sure there are posts like this already available and I know the Nancy wiki is pretty damn good too. However, I’m giving a talk at <a href="http://www.leeds-sharp.org/events/2013/8">Leeds Sharp</a> (my first) in a few weeks and this is as much preparation for this as anything else.</em></p>
+
+<p>How many of you use ASP.NET MVC? You’re doing it wrong.</p>
+
+<p>No I’m just joking. While ASP.NET is perfectly acceptable I’m here to show you an alternative, NancyFX. So, as it says on its blog its</p>
+
+<blockquote>
+<p>“A lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono”</p>
+</blockquote>
+
+<p>Which basically means it can be used as a viable replacement for WebAPI or MVC. It’s based upon Sinatra for Ruby, if any of you have heard of that, and I think it offers a really elegant way to write your web site or app. In this first part I’m going to show how easy it is to setup a Nancy application and create some basic <code>GET</code> and <code>POST</code> methods. So let’s jump straight in and create the application.</p>
+
+<p>Firstly you need open up Visual Studio and create a new empty website in visual studio:</p>
+
+<p><img src="/images/posts/selecting-project-type.png" alt="Selecting Project Type" /></p>
+
+<p><img src="/images/posts/selecting-project-type-2.png" alt="Selecting Project Type Two" /></p>
+
+<p>Then go ahead and delete any pre-generated content. You should end up with a project looking like this:</p>
+
+<p><img src="/images/posts/final-layout.png" alt="Final Layout" /></p>
+
+<p>Finally open up the package manager console and install the Nancy hosting nuget package</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='n'>PM</span><span class='p'>&gt;</span> <span class='n'>Install</span><span class='p'>-</span><span class='n'>Package</span> <span class='n'>Nancy</span><span class='p'>.</span><span class='n'>Hosting</span><span class='p'>.</span><span class='n'>Aspnet</span>
+</code></pre></div>
+<p>Nancy also allows you to host on other <a href="http://www.nuget.org/packages?q=nancy.hosting">environments</a> such as OWIN and as such actually has no dependencies on ASP.NET. But for this example will stick to ASP hosting.</p>
+
+<p>Now that Nancy is installed we can create our first module. The Nancy website defines a module as “the way of defining the behaviours of your application”, which they are. But for the sake of this article and the fact that most of you are probably coming from ASP.NET MVC it’s comparable to a controller. They are easy to create and don’t force any folder structure or naming convention on you. They just have to inherit from the <code>NancyModule</code> class. This means you’re free to organise the project as you see fit. So lets create our first one:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='c1'>// Note: There is no requirement to suffix your class name with Module, I just like it.</span>
+<span class='lineno'>2</span> <span class='k'>public</span> <span class='k'>class</span> <span class='nc'>TurtleModule</span> <span class='p'>:</span> <span class='n'>NancyModule</span>
+<span class='lineno'>3</span> <span class='p'>{</span>
+<span class='lineno'>4</span>     <span class='k'>public</span> <span class='nf'>TurtleModule</span><span class='p'>()</span> <span class='p'>{</span> <span class='p'>}</span>
+<span class='lineno'>5</span> <span class='p'>}</span>
+</code></pre></div>
+<p>The next thing we need are routes and this is where it gets a little trickier to explain. The <code>NancyModule</code> class has a series of property indexers for each of the http verbs that is of type <code>Func&lt;dyanmic, dynamic&gt;</code>. Where the <code>dynamic</code> that gets passed in contains any route arguments (I’ll show that later). If indexers are new to you (and they were to me) then take a look at the <a href="http://msdn.microsoft.com/en-us/library/aa288465.aspx">msdn article</a>, it’s got a pretty good explanation.</p>
+
+<p>To create a <code>GET</code> route you need to define it in the constructor:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='c1'>// Note: arguments can be named anything.</span>
+<span class='lineno'>2</span> <span class='n'>Get</span><span class='p'>[</span><span class='s'>&quot;/turtle&quot;</span><span class='p'>]</span> <span class='p'>=</span> <span class='n'>arguments</span> <span class='p'>=&gt;</span> 
+<span class='lineno'>3</span> <span class='p'>{</span>
+<span class='lineno'>4</span>     <span class='k'>return</span> <span class='s'>&quot;Teenage Mutant Ninja Turtles&quot;</span><span class='p'>;</span>
+<span class='lineno'>5</span> <span class='p'>};</span>
+</code></pre></div>
+<p>Mind, blown right? I really like the way that Nancy writes. I think it’s very clean and elegant. I like the way each route is defined explicitly, in the module, as oppose to the crazy “Which route is it picking?” method of ASP.NET MVC.</p>
+
+<p>As for specifying route arguments that’s pretty simple too. There are a number of options from simple pattern matching right through to more complex regular expressions. These are all explained on the <a href="https://github.com/NancyFx/Nancy/wiki/Defining-routes#pattern">website</a> but for my example I’m just going to use a simple pattern match:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='n'>Get</span><span class='p'>[</span><span class='s'>&quot;/turtle/{name}&quot;</span><span class='p'>]</span> <span class='p'>=</span> <span class='n'>arguments</span> <span class='p'>=&gt;</span> 
+<span class='lineno'>2</span> <span class='p'>{</span>
+<span class='lineno'>3</span>     <span class='c1'>// Note: the arguments are case insensitve. arguments.name is also fine.</span>
+<span class='lineno'>4</span>     <span class='k'>return</span> <span class='s'>&quot;Hello&quot;</span> <span class='p'>+</span> <span class='n'>arguments</span><span class='p'>.</span><span class='n'>Name</span><span class='p'>;</span>
+<span class='lineno'>5</span> <span class='p'>};</span>
+</code></pre></div>
+<p>Defining a <code>POST</code> or <code>PUT</code> request is exactly the same. The post form is available in the Request property on the NancyModule or you can get it the easy way buy accessing it via model binding (It really is this simple):</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='n'>Post</span><span class='p'>[</span><span class='s'>&quot;/turtle&quot;</span><span class='p'>]</span> <span class='p'>=</span> <span class='n'>arguments</span> <span class='p'>=&gt;</span> 
+<span class='lineno'>2</span> <span class='p'>{</span>
+<span class='lineno'>3</span>     <span class='kt'>var</span> <span class='n'>model</span> <span class='p'>=</span> <span class='k'>this</span><span class='p'>.</span><span class='n'>Bind</span><span class='p'>&lt;</span><span class='n'>Turtle</span><span class='p'>&gt;();</span>
+<span class='lineno'>4</span>     <span class='k'>return</span> <span class='n'>model</span><span class='p'>.</span><span class='n'>MaskColour</span><span class='p'>;</span>
+<span class='lineno'>5</span> <span class='p'>};</span>
+</code></pre></div>
+<p>And finally, as an added bonus, instead of defining your routes route on each of the verb methods you can set it by passing it into the base constructor:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'> 1</span> <span class='k'>public</span> <span class='k'>class</span> <span class='nc'>TurtleModule</span> <span class='p'>:</span> <span class='n'>NancyModule</span>
+<span class='lineno'> 2</span> <span class='p'>{</span>
+<span class='lineno'> 3</span>     <span class='k'>public</span> <span class='nf'>TurtleModule</span><span class='p'>()</span> <span class='p'>:</span> <span class='k'>base</span><span class='p'>(</span><span class='s'>&quot;/turtle&quot;</span><span class='p'>)</span>
+<span class='lineno'> 4</span>     <span class='p'>{</span>
+<span class='lineno'> 5</span>         <span class='n'>Get</span><span class='p'>[</span><span class='s'>&quot;/&quot;</span><span class='p'>]</span> <span class='p'>=</span> <span class='n'>arguments</span> <span class='p'>=&gt;</span> 
+<span class='lineno'> 6</span>         <span class='p'>{</span>   
+<span class='lineno'> 7</span>             <span class='k'>return</span> <span class='s'>&quot;Teenage Mutant Ninja Turtles&quot;</span><span class='p'>;</span>
+<span class='lineno'> 8</span>         <span class='p'>};</span>
+<span class='lineno'> 9</span>     <span class='p'>}</span>
+<span class='lineno'>10</span> <span class='p'>}</span>
+</code></pre></div>
+<p>That is really all there is to it. There’s plenty more you can do within a module, such as extending it with validation or authentication but I’ll cover that in later posts.</p>
+
+<p>I’ve created a <a href="https://gist.github.com/mat-mcloughlin/6282141">gist</a> of this code. Next time I’m going to take a look at returning and populating views.</p>
+
+<p><strong>NOTE: As I’ve been reliably informed several time :). You can also use the Nancy <a href="http://visualstudiogallery.msdn.microsoft.com/f1e29f61-4dff-4b1e-a14b-6bd0d307611a">project templates</a>.</strong></p>
+
+                </div>
+                <ul class="meta">
+                    <div class="meta-title">Share</div>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mat-mcloughlin.net/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html" data-text="ASP.NET You're doing it Wrong. An Introduction to Nancy" data-via="mat_mcloughlin">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li> 
+                        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+                        <script>(function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = '//hnbutton.appspot.com/static/hn.min.js'; s.parentNode.insertBefore(g, s); }(document, 'script'));</script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+                            <script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://mat-mcloughlin.net/2013/08/20/aspnet-youre-doing-it-wrong-an-introduction-to-nancy.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                        </li>
+                        <li class="next-prev-mobile">&nbsp;</li>
+                        <li class="prev-mobile next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/bart-goes-under-the-bay/" rel="prev"><i class="icon-arrow-left"></i> Previous Post</a>
+                        </li>
+                        <li class="next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/a-trip-to-the-san-francisco-bay/" rel="next"><i class="icon-arrow-right"></i> Next Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </article>
+    </div>
+
+    <div id="comment-jump" class="comments"><div id="comments">
+            <div class="comments-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'invalidargblog'; // required: replace example with your forum shortname
+
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        
+            <div class="prev-post"> 
+                <a href="/2013/08/15/a-basic-example-of-an-ioc-container.html" rel="prev">Previous Post</a>
+            </div>
+        
+        
+            <div class="next-post"> 
+                <a href="/2013/08/27/using-named-parameters-for-constants.html" rel="next">Next Post</a>
+            </div>
+        
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footer-inside">
+			<div id="text-2" class="widget widget_text">
+				<h2 class="widgettitle">Mathew McLoughlin</h2>
+				<div class="textwidget">Net developer and lover of javascript. I enjoy climbing and surfing (in cold water). Powered by Beard.</div>
+			</div>
+			<div id="recent-posts-3" class="widget widget_recent_entries">
+				<h2 class="widgettitle">Archive</h2>
+				<ul>
+					
+						<li><a href="/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html" title="Dark Matter Developer != Bad Developers" title="Dark Matter Developer != Bad Developers">Dark Matter Developer != Bad Developers</a></li>
+					
+						<li><a href="/2013/11/02/step-away-from-the-keyboard.html" title="Step Away From the Keyboard" title="Step Away From the Keyboard">Step Away From the Keyboard</a></li>
+					
+						<li><a href="/2013/10/31/nancy-gets-route-constraints.html" title="Nancy gets Route Constraints (Beta Only)" title="Nancy gets Route Constraints (Beta Only)">Nancy gets Route Constraints (Beta Only)</a></li>
+					
+				</ul>
+			</div>
+			<div id="archives-2" class="widget widget_archive">
+				<h2 class="widgettitle">Social Links</h2>
+				<ul>
+					<li>
+						<i class="icon-twitter"></i> <a href="https://twitter.com/mat_mcloughlin" title="Twitter">Twitter</a></li>
+					<li>
+						<i class="icon-github"></i> <a href="https://github.com/mat-mcloughlin" title="GitHub">GitHub</a>
+					</li>
+					<li>
+						<i class="icon-rss"></i> <a href="/rss.xml" title="August 2012">RSS</a>
+					</li>
+				</ul>
+			</div>
+		</div> 
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1746767-6']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

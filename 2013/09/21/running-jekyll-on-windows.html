@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  	<title>Mat McLoughlin</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+	<meta name="description" content=".Net developer and lover of javascript. This blog contains my thoughts and ramblings.">
+	<meta name="author" content="Mathew McLoughlin">
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!-- need to sort the rss feed -->
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  
+	<link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='/stylesheets/includes/fonts/fontawesome/font-awesome.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/media-queries.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/pygments.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/railscasts.css' type='text/css' media='screen' />
+
+	<style type="text/css">
+		a, #cancel-comment-reply i {
+			color:#DD574C
+		}
+
+		.next-prev a, #respond .respond-submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit { 
+			background:#DD574C
+		}
+
+		.infinite-scroll #infinite-handle {
+			overflow: auto;
+		}
+	</style>
+
+	<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=3.6.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C500%2C700%2C800&#038;ver=3.6.1' type='text/css' media='all' />
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body class="home blog infinite-scroll"> 
+	<header role="banner" class="header"> 
+		<hgroup>
+			<h1 class="logo-text">
+				<a href="/" title="Mat McLoughlin">Mat McLoughlin</a>
+			</h1>
+			<h2 class="logo-subtitle">This blog contains my thoughts and ramblings</h2> 
+		</hgroup> 
+  		<nav role="navigation" class="header-nav"> 
+  			<ul id="menu-header" class="nav">
+    			<li id="menu-item-blog">
+      				<a href="/">Blog</a>
+    			</li>
+    			<!--<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">About</a>
+    			</li>-->
+    			<li id="menu-item-archive">
+  					<a href="/archives.html">Archive</a>
+    			</li>
+    			<!--<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">Contact</a>
+    			</li>-->
+  			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main">
+			<div id="content">
+				<style type="text/css">
+.nav #menu-item-blog a {
+    color: #fff;
+}
+</style>
+
+<div class="posts">
+    <article class="post" style="margin-bottom: 0;"> 
+        
+
+        <div class="box-wrap">
+            <div class="box"> 
+                <header class="post-header">
+                    <div class="date-title">21 September, 2013</div>
+                    <h2 class="entry-title">
+                        <a href="http://mat-mcloughlin.net/2013/09/21/running-jekyll-on-windows.html" title="Running Jekyll on Windows">Running Jekyll on Windows</a>
+                    </h2> 
+                </header>
+                <div class="post-content">
+                    
+<p>Static blog generators have become very popular recently and with good reason. They are simple without any of the bulk of Wordpress or Blogger and they allow you to host it using providers that don’t have any ??server side language. One of the more popular generators is Jekyll. Partly because it is used by GitHub, which just so happens to be place most people host them. There is just one problem with Jekyll though. It can be a little tricky to get it working on Windows. This post will hopefully help you solve this.</p>
+
+<p><strong>I’ve highlighted any gotchas in bold</strong></p>
+
+<h2 id="part_one_installing_ruby">Part One: Installing Ruby</h2>
+
+<p>Jekyll is a ruby application so thats your first problem. It requires you to install both Ruby and the DevKit on your machine. If you haven’t already come across it I highly recommend you use <a href="http://chocolatey.org/">chocolatey</a> to do this. Its a machine package manager for windows, kind of like apt for Linux. Its so good infact I rarely setup a machine with out it.</p>
+
+<p>To install chocolatey either go to their website or open up Command Prompt and type:</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='nv'>@powershell</span> <span class='n'>-NoProfile</span> <span class='n'>-ExecutionPolicy</span> <span class='n'>unrestricted</span> <span class='n'>-Command</span> <span class='s2'>&quot;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&quot;</span> <span class='p'>&amp;&amp;</span> <span class='n'>SET</span> <span class='n'>PATH</span><span class='p'>=</span><span class='k'>%</span><span class='n'>PATH</span><span class='p'>%</span><span class='err'>;</span><span class='k'>%</span><span class='n'>systemdrive</span><span class='p'>%\</span><span class='n'>chocolatey</span><span class='p'>\</span><span class='n'>bin</span> <span class='p'>-</span> <span class='n'>See</span> <span class='n'>more</span> <span class='n'>at</span><span class='err'>:</span> <span class='n'>http</span><span class='err'>:</span><span class='p'>//</span><span class='n'>chocolatey</span><span class='p'>.</span><span class='n'>org</span><span class='p'>/</span><span class='c'>#sthash.DiILbJrZ.dpuf</span>
+</code></pre></div>
+<p>Once this is done you can then go ahead and install <a href="http://chocolatey.org/packages/ruby">Ruby</a> and the <a href="http://chocolatey.org/packages/ruby.devkit.ruby193">DevKit</a>.</p>
+
+<p><strong>You have to be careful at this point as Jekyll runs on version 1.9 NOT 2.0.</strong></p>
+
+<p>So go ahead and use <code>cinst</code>:</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>cinst</span> <span class='n'>ruby</span> <span class='n'>-Version</span> <span class='n'>1</span><span class='p'>.</span><span class='n'>9</span><span class='p'>.</span><span class='n'>3</span><span class='p'>.</span><span class='n'>44800</span>
+</code></pre></div>
+<p>And</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>cinst</span> <span class='n'>ruby</span><span class='p'>.</span><span class='n'>devkit</span><span class='p'>.</span><span class='n'>ruby193</span>
+</code></pre></div>
+<h2 id="part_two_installing_python">Part Two: Installing Python</h2>
+
+<p>Why Python? You need it if you want to use <a href="http://pygments.org/">pygments</a> which is the library Jekyll uses for syntax highlighting. Python 3.* can cause some problems with Jekyll so unless you planning on using it for anything else you’re best sticking to 2.7. So again using <code>cinst</code>:</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>cinst</span> <span class='n'>python</span> <span class='n'>-Version</span> <span class='n'>2</span><span class='p'>.</span><span class='n'>7</span><span class='p'>.</span><span class='n'>5</span>
+</code></pre></div>
+<p>Next you need to add python to your <code>PATH</code> enviroment variable:</p>
+
+<p>Open up Control Panel and click on “System”:</p>
+
+<p><img src="/images/posts/control-panel.png" alt="Control Panel" /></p>
+
+<p>Click on “Advanced system settings”:</p>
+
+<p><img src="/images/posts/advanced-systems-settings.png" alt="Advanced Systems Settings" /></p>
+
+<p>Click on “Enviroment Variables…” (Why the Ellipsis?)</p>
+
+<p><img src="/images/posts/environment-variables.png" alt="Environment Variables" /></p>
+
+<p>Then you need to add the path that you installed Python to, to the Path variable. Most likely, if you used Chocolatey, this will mean adding</p>
+<div class='highlight'><pre><code class='text'>;C:\python27;
+</code></pre></div>
+<p><strong>Make sure your variables are delimited by a semi-colon.</strong></p>
+
+<p>Now the next bit might catch you out.</p>
+
+<p><strong>Make sure to close all instances of Command Prompt (or Powershell) and reopen them so your Path variable can be reloaded.</strong></p>
+
+<h2 id="part_three_installing_jekyll">Part Three: Installing Jekyll</h2>
+
+<p>Now we are already to go-ahead and install Jekyll:</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>gem</span> <span class='n'>install</span> <span class='n'>jekyll</span>
+</code></pre></div>
+<p>This will install Jekyll and all its dependencies. At this point it may work for you, however for me I still had problems with the <code>pygments.rb</code> gem. At the time I wrote this it didn’t work for me. At the time of writing it was at version 0.5.3.</p>
+
+<p><strong>If at this point Jekyll still doesn’t work it you may need to revert to pygments.rb version 0.5.0. To do this</strong></p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>gem</span> <span class='n'>uinstall</span> <span class='n'>pygments</span> <span class='n'>-v</span> <span class='n'>0</span><span class='p'>.</span><span class='n'>5</span><span class='p'>.</span><span class='n'>3</span>
+</code></pre></div><div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>gem</span> <span class='n'>install</span> <span class='n'>pygments</span> <span class='n'>-v</span> <span class='n'>0</span><span class='p'>.</span><span class='n'>5</span><span class='p'>.</span><span class='n'>0</span>
+</code></pre></div>
+<h2 id="part_four_create_your_blog">Part Four: Create your Blog</h2>
+
+<p>For this section I’m going to refer you to the <a href="http://jekyllrb.com/">official site</a>. Come back when you’re done.</p>
+
+<h2 id="part_five_hosting_on_github">Part Five: Hosting on GitHub</h2>
+
+<p>You’ve got two options here. A simple one and a more complicated one. I’ll show you the simple way first and then if you need it you can move onto the more complicated option.</p>
+
+<p>GitHub allow you to host a website in one of your repositories at the URL <code>username.github.io</code>. To set this up you need to create a repository called <code>username.github.io</code>. You can then push your newly created blog straight to this repository. The reason you can do this is because GitHub will actually run your application through Jekyll on the server.</p>
+
+<p><strong>Your blog should have a .gitignore file in the root of your blog that contains the following</strong></p>
+<div class='highlight'><pre><code class='text'><span class='lineno'>1</span> _site/
+<span class='lineno'>2</span> serve/
+</code></pre></div>
+<p>However, after you’ve been playing with Jekyll for a while, you probably want to install some plugins. This is where GitHub falls down. It runs Jekyll in safe mode so it will ignore any plugins you install. So you’re going to have to start generating the site locally and pushing the compiled site to GitHub. I’m sure there a a couple of ways to do this, but here is my way.</p>
+
+<p>Go to your repository and create a new branch. Call it source:</p>
+
+<p><img src="/images/posts/creating-branch.png" alt="Creating Branch" /></p>
+
+<p>And set it as your default branch. This is so when somebody comes to your git repository they will see this rather than the compiled site</p>
+
+<p><img src="/images/posts/setting-default-branch.png" alt="Setting Default Branch" /></p>
+
+<p>Then create a new file in the route of your blog and call it rake.rb and add the following code:</p>
+<div class='highlight'><pre><code class='ruby'><span class='lineno'> 1</span> <span class='nb'>require</span> <span class='s1'>&#39;rubygems&#39;</span>
+<span class='lineno'> 2</span> <span class='nb'>require</span> <span class='s1'>&#39;jekyll&#39;</span>
+<span class='lineno'> 3</span> <span class='nb'>require</span> <span class='s1'>&#39;tmpdir&#39;</span>
+<span class='lineno'> 4</span> 
+<span class='lineno'> 5</span> <span class='c1'># Change your GitHub reponame</span>
+<span class='lineno'> 6</span> <span class='no'>GITHUB_REPONAME</span> <span class='o'>=</span> <span class='s2'>&quot;&lt;your git repository&gt;&quot;</span>
+<span class='lineno'> 7</span> <span class='no'>TEMP_DIRECTORY</span> <span class='o'>=</span> <span class='s2'>&quot;&lt;absolute path location to generate your site to&gt;&quot;</span>
+<span class='lineno'> 8</span> 
+<span class='lineno'> 9</span> <span class='n'>desc</span> <span class='s2'>&quot;Generate blog files&quot;</span>
+<span class='lineno'>10</span> <span class='n'>task</span> <span class='ss'>:generate</span> <span class='k'>do</span>
+<span class='lineno'>11</span>   <span class='nb'>system</span> <span class='s2'>&quot;Jekyll build --source . --destination _site&quot;</span>
+<span class='lineno'>12</span> <span class='k'>end</span>
+<span class='lineno'>13</span> 
+<span class='lineno'>14</span> <span class='n'>desc</span> <span class='s2'>&quot;Generate and publish blog to gh-pages&quot;</span>
+<span class='lineno'>15</span> <span class='n'>task</span> <span class='ss'>:publish</span> <span class='o'>=&gt;</span> <span class='o'>[</span><span class='ss'>:generate</span><span class='o'>]</span> <span class='k'>do</span>
+<span class='lineno'>16</span>   <span class='nb'>system</span> <span class='s2'>&quot;mkdir </span><span class='se'>\&quot;</span><span class='si'>#{</span><span class='no'>TEMP_DIRECTORY</span><span class='si'>}</span><span class='se'>\&quot;</span><span class='s2'>&quot;</span>
+<span class='lineno'>17</span>   <span class='n'>cp_r</span> <span class='s2'>&quot;_site/.&quot;</span><span class='p'>,</span> <span class='no'>TEMP_DIRECTORY</span>
+<span class='lineno'>18</span>   <span class='no'>Dir</span><span class='o'>.</span><span class='n'>chdir</span> <span class='no'>TEMP_DIRECTORY</span>
+<span class='lineno'>19</span>   <span class='nb'>system</span> <span class='s2'>&quot;git init&quot;</span>
+<span class='lineno'>20</span>   <span class='nb'>system</span> <span class='s2'>&quot;git add .&quot;</span>
+<span class='lineno'>21</span>   <span class='n'>message</span> <span class='o'>=</span> <span class='s2'>&quot;Site updated at </span><span class='si'>#{</span><span class='no'>Time</span><span class='o'>.</span><span class='n'>now</span><span class='o'>.</span><span class='n'>utc</span><span class='si'>}</span><span class='s2'>&quot;</span>
+<span class='lineno'>22</span>   <span class='nb'>system</span> <span class='s2'>&quot;git commit -m </span><span class='se'>\&quot;</span><span class='si'>#{</span><span class='n'>message</span><span class='si'>}</span><span class='se'>\&quot;</span><span class='s2'>&quot;</span>
+<span class='lineno'>23</span>   <span class='nb'>system</span> <span class='s2'>&quot;git remote add origin https://github.com/</span><span class='si'>#{</span><span class='no'>GITHUB_REPONAME</span><span class='si'>}</span><span class='s2'>.git&quot;</span>
+<span class='lineno'>24</span>   <span class='nb'>system</span> <span class='s2'>&quot;git push origin master --force&quot;</span>
+<span class='lineno'>25</span>   <span class='n'>rm_rf</span> <span class='no'>TEMP_DIRECTORY</span>
+<span class='lineno'>26</span> <span class='k'>end</span>
+</code></pre></div>
+<p>This Ruby is a ruby rake file, if you want to learn more about it checkout this site. It will give you two commands that you can run from the root of you blog</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>rake</span> <span class='n'>generate</span>
+</code></pre></div>
+<p>That will generate the site and</p>
+<div class='highlight'><pre><code class='powershell'><span class='n'>PS</span><span class='p'>&gt;</span> <span class='n'>rake</span> <span class='n'>publish</span>
+</code></pre></div>
+<p>That will generate your site (locally) and copy it into a temporay location (I usually put it in <code>C:\temp\generate_blog</code>) and push it to the master branch of your git repository.</p>
+
+<p><strong>The master branch is the one github uses for your site</strong></p>
+
+<p>And thats it! Hopefully this will help people where I got stuck. If you have any problems leave a comment and I will try my best to help.</p>
+
+                </div>
+                <ul class="meta">
+                    <div class="meta-title">Share</div>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mat-mcloughlin.net/2013/09/21/running-jekyll-on-windows.html" data-text="Running Jekyll on Windows" data-via="mat_mcloughlin">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li> 
+                        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+                        <script>(function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = '//hnbutton.appspot.com/static/hn.min.js'; s.parentNode.insertBefore(g, s); }(document, 'script'));</script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+                            <script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://mat-mcloughlin.net/2013/09/21/running-jekyll-on-windows.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                        </li>
+                        <li class="next-prev-mobile">&nbsp;</li>
+                        <li class="prev-mobile next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/bart-goes-under-the-bay/" rel="prev"><i class="icon-arrow-left"></i> Previous Post</a>
+                        </li>
+                        <li class="next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/a-trip-to-the-san-francisco-bay/" rel="next"><i class="icon-arrow-right"></i> Next Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </article>
+    </div>
+
+    <div id="comment-jump" class="comments"><div id="comments">
+            <div class="comments-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'invalidargblog'; // required: replace example with your forum shortname
+
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        
+            <div class="prev-post"> 
+                <a href="/2013/09/15/aspnet-youre-doing-it-wrong-views.html" rel="prev">Previous Post</a>
+            </div>
+        
+        
+            <div class="next-post"> 
+                <a href="/2013/10/02/why-developers-should-go-to-conferences.html" rel="next">Next Post</a>
+            </div>
+        
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footer-inside">
+			<div id="text-2" class="widget widget_text">
+				<h2 class="widgettitle">Mathew McLoughlin</h2>
+				<div class="textwidget">Net developer and lover of javascript. I enjoy climbing and surfing (in cold water). Powered by Beard.</div>
+			</div>
+			<div id="recent-posts-3" class="widget widget_recent_entries">
+				<h2 class="widgettitle">Archive</h2>
+				<ul>
+					
+						<li><a href="/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html" title="Dark Matter Developer != Bad Developers" title="Dark Matter Developer != Bad Developers">Dark Matter Developer != Bad Developers</a></li>
+					
+						<li><a href="/2013/11/02/step-away-from-the-keyboard.html" title="Step Away From the Keyboard" title="Step Away From the Keyboard">Step Away From the Keyboard</a></li>
+					
+						<li><a href="/2013/10/31/nancy-gets-route-constraints.html" title="Nancy gets Route Constraints (Beta Only)" title="Nancy gets Route Constraints (Beta Only)">Nancy gets Route Constraints (Beta Only)</a></li>
+					
+				</ul>
+			</div>
+			<div id="archives-2" class="widget widget_archive">
+				<h2 class="widgettitle">Social Links</h2>
+				<ul>
+					<li>
+						<i class="icon-twitter"></i> <a href="https://twitter.com/mat_mcloughlin" title="Twitter">Twitter</a></li>
+					<li>
+						<i class="icon-github"></i> <a href="https://github.com/mat-mcloughlin" title="GitHub">GitHub</a>
+					</li>
+					<li>
+						<i class="icon-rss"></i> <a href="/rss.xml" title="August 2012">RSS</a>
+					</li>
+				</ul>
+			</div>
+		</div> 
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1746767-6']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

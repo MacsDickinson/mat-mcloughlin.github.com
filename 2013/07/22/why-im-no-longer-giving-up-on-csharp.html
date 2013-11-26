@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  	<title>Mat McLoughlin</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+	<meta name="description" content=".Net developer and lover of javascript. This blog contains my thoughts and ramblings.">
+	<meta name="author" content="Mathew McLoughlin">
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!-- need to sort the rss feed -->
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  
+	<link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='/stylesheets/includes/fonts/fontawesome/font-awesome.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/media-queries.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/pygments.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='/stylesheets/railscasts.css' type='text/css' media='screen' />
+
+	<style type="text/css">
+		a, #cancel-comment-reply i {
+			color:#DD574C
+		}
+
+		.next-prev a, #respond .respond-submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit { 
+			background:#DD574C
+		}
+
+		.infinite-scroll #infinite-handle {
+			overflow: auto;
+		}
+	</style>
+
+	<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=3.6.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C500%2C700%2C800&#038;ver=3.6.1' type='text/css' media='all' />
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body class="home blog infinite-scroll"> 
+	<header role="banner" class="header"> 
+		<hgroup>
+			<h1 class="logo-text">
+				<a href="/" title="Mat McLoughlin">Mat McLoughlin</a>
+			</h1>
+			<h2 class="logo-subtitle">This blog contains my thoughts and ramblings</h2> 
+		</hgroup> 
+  		<nav role="navigation" class="header-nav"> 
+  			<ul id="menu-header" class="nav">
+    			<li id="menu-item-blog">
+      				<a href="/">Blog</a>
+    			</li>
+    			<!--<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">About</a>
+    			</li>-->
+    			<li id="menu-item-archive">
+  					<a href="/archives.html">Archive</a>
+    			</li>
+    			<!--<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page">
+      				<a href="/">Contact</a>
+    			</li>-->
+  			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main">
+			<div id="content">
+				<style type="text/css">
+.nav #menu-item-blog a {
+    color: #fff;
+}
+</style>
+
+<div class="posts">
+    <article class="post" style="margin-bottom: 0;"> 
+        
+
+        <div class="box-wrap">
+            <div class="box"> 
+                <header class="post-header">
+                    <div class="date-title">22 July, 2013</div>
+                    <h2 class="entry-title">
+                        <a href="http://mat-mcloughlin.net/2013/07/22/why-im-no-longer-giving-up-on-csharp.html" title="Why I'm no longer giving up on C#">Why I'm no longer giving up on C#</a>
+                    </h2> 
+                </header>
+                <div class="post-content">
+                    
+<p>For while now I’ve been getting bored and annoyed with C#. Its not that its a bad language, its just that when you look around the web there seems so many other languages that seem so fluent to write. NodeJs, Ruby, Javascript, Cloujure. These languages are all the rage at the moment and with good reason. Recently I’ve been playing around with all these languages trying to find a replacement for the C# that I’ve grown to hate.</p>
+
+<p>However, I realised something (and to be fair its pretty obvious). Its not C# the language that I’ve found frustrating but the frameworks and libraries I’ve been using. As like most C# developers I’ve been using the usual MS web stack of either MVC or WebAPI coupled with EF. Usually sticking together some sort of repository pattern. This has caused me so many headaches. From WebAPI throwing away half the request object after model binding to EF trashing some simple query or the occasional N+1 sneaking in there. Its enough to drive someone crazy.</p>
+
+<p>I’m here to tell you there is another way, The non microsoft way (Sorry MS) there are so many alternative libraries and frameworks out there, that are often over looked, that will help re-ignite your love for C#. I thought I’d mention a few.</p>
+
+<h2 id="nancy"><a href="http://nancyfx.org/">Nancy</a></h2>
+
+<p>This is the one that changed it for me. Its a light weight web framework that is a great alternative to WebAPI an MVC.NET. <a href="https://twitter.com/Grumpydev">@grumpydev</a> and <a href="https://twitter.com/TheCodeJunkie">@thecodejunkie</a> who wrote it have the Super Duper Happy Path ethos and it really works. Everything in it is simple to set up. From forms authentication through to dependancy injection. And as strange as it may sound, the syntax is a pleasure to write for example:</p>
+<div class='highlight'><pre><code class='csharp'><span class='lineno'>1</span> <span class='k'>public</span> <span class='k'>class</span> <span class='nc'>SampleModule</span> <span class='p'>:</span> <span class='n'>Nancy</span><span class='p'>.</span><span class='n'>NancyModule</span>
+<span class='lineno'>2</span> <span class='p'>{</span>
+<span class='lineno'>3</span>     <span class='k'>public</span> <span class='nf'>SampleModule</span><span class='p'>()</span>
+<span class='lineno'>4</span>     <span class='p'>{</span>
+<span class='lineno'>5</span>         <span class='n'>Get</span><span class='p'>[</span><span class='s'>&quot;/&quot;</span><span class='p'>]</span> <span class='p'>=</span> <span class='n'>_</span> <span class='p'>=&gt;</span> <span class='s'>&quot;Hello World!&quot;</span><span class='p'>;</span>
+<span class='lineno'>6</span>     <span class='p'>}</span>
+<span class='lineno'>7</span> <span class='p'>}</span>
+</code></pre></div>
+<p>To setup a simple get request. Also, the <a href="https://github.com/NancyFx/Nancy/wiki">documentation</a> is excellent.</p>
+
+<h2 id="massive"><a href="https://github.com/robconery/massive">Massive</a></h2>
+
+<p>This is a DataAccess tool written by <a href="https://twitter.com/robconery">@robconery</a>. Its simple, easy to setup and easy to use. However it does rely heavily on dynamic, so if your not into that kind of thing then you might want to give this one a miss.</p>
+
+<h2 id="simpleauthentication"><a href="https://github.com/SimpleAuthentication/SimpleAuthentication">SimpleAuthentication</a></h2>
+
+<p><a href="https://twitter.com/purekrome">@purekrome</a> wrote this library and I honestly can’t believe that anybody who wants to support multiple OAuth logins on their site would use anything else. With only a couple of lines you can allow login via Facebook, GitHub, Google. Twitter was enabled but is broken since they updated their api, I’m sure this will be sorted soon.</p>
+
+<h2 id="ravendb_note_not_always_free__"><a href="http://ravendb.net/">RavenDB</a> (Note: not always free :( )</h2>
+
+<p>This document store written by <a href="https://twitter.com/ayende">@ayende</a> is very nice. For those who have yet to pay any attention to the NoSQL revolution here is a good place to start. It has a great user interface and is incredibly easy to get started with. Rob Conery has some great <a href="http://tekpub.com/collections/everything/products/raven">tutorials</a> on it. Additionaly if your not sure about just storing your data in RavenDB they allow you to setup replication back to a SQL Server.</p>
+
+<p>So as you can see there are some great alternatives out there if just spend the time to look around.</p>
+
+                </div>
+                <ul class="meta">
+                    <div class="meta-title">Share</div>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mat-mcloughlin.github.io/2013/07/22/why-im-no-longer-giving-up-on-csharp.html" data-text="Why I'm no longer giving up on C#" data-via="mat_mcloughlin">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li> 
+                        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+                        <script>(function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = '//hnbutton.appspot.com/static/hn.min.js'; s.parentNode.insertBefore(g, s); }(document, 'script'));</script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+                            <script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://mat-mcloughlin.github.io/2013/07/22/why-im-no-longer-giving-up-on-csharp.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                        </li>
+                        <li class="next-prev-mobile">&nbsp;</li>
+                        <li class="prev-mobile next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/bart-goes-under-the-bay/" rel="prev"><i class="icon-arrow-left"></i> Previous Post</a>
+                        </li>
+                        <li class="next-prev-mobile">
+                            <a href="http://themes.okaythemes.com/pocket/2012/10/01/a-trip-to-the-san-francisco-bay/" rel="next"><i class="icon-arrow-right"></i> Next Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </article>
+    </div>
+
+    <div id="comment-jump" class="comments"><div id="comments">
+            <div class="comments-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'invalidargblog'; // required: replace example with your forum shortname
+
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        
+            <div class="prev-post"> 
+                <a href="/2013/07/03/saving-key-strokes-can-bring-a-world-of-pain.html" rel="prev">Previous Post</a>
+            </div>
+        
+        
+            <div class="next-post"> 
+                <a href="/2013/08/12/javascript-can-double-your-codebase-so-make-sure-you-need-it-first.html" rel="next">Next Post</a>
+            </div>
+        
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footer-inside">
+			<div id="text-2" class="widget widget_text">
+				<h2 class="widgettitle">Mathew McLoughlin</h2>
+				<div class="textwidget">Net developer and lover of javascript. I enjoy climbing and surfing (in cold water). Powered by Beard.</div>
+			</div>
+			<div id="recent-posts-3" class="widget widget_recent_entries">
+				<h2 class="widgettitle">Archive</h2>
+				<ul>
+					
+						<li><a href="/2013/11/26/dark-matter-developers-do-not-equal-bad-developers.html" title="Dark Matter Developer != Bad Developers" title="Dark Matter Developer != Bad Developers">Dark Matter Developer != Bad Developers</a></li>
+					
+						<li><a href="/2013/11/02/step-away-from-the-keyboard.html" title="Step Away From the Keyboard" title="Step Away From the Keyboard">Step Away From the Keyboard</a></li>
+					
+						<li><a href="/2013/10/31/nancy-gets-route-constraints.html" title="Nancy gets Route Constraints (Beta Only)" title="Nancy gets Route Constraints (Beta Only)">Nancy gets Route Constraints (Beta Only)</a></li>
+					
+				</ul>
+			</div>
+			<div id="archives-2" class="widget widget_archive">
+				<h2 class="widgettitle">Social Links</h2>
+				<ul>
+					<li>
+						<i class="icon-twitter"></i> <a href="https://twitter.com/mat_mcloughlin" title="Twitter">Twitter</a></li>
+					<li>
+						<i class="icon-github"></i> <a href="https://github.com/mat-mcloughlin" title="GitHub">GitHub</a>
+					</li>
+					<li>
+						<i class="icon-rss"></i> <a href="/rss.xml" title="August 2012">RSS</a>
+					</li>
+				</ul>
+			</div>
+		</div> 
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1746767-6']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>
